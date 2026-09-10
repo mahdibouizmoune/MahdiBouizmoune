@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "vinext start --hostname 127.0.0.1 --port 5173",
-    "lint": "oxlint app lib vite.config.ts next.config.ts",
+    "lint": "oxlint app lib components/portfolio-shell.tsx components/work-image.tsx vite.config.ts next.config.ts",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit"
   },
