@@ -1,0 +1,859 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "work": "Work",
+    "clients": "Clients",
+    "cta": "Let’s talk",
+    "downloadCv": "Download CV"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "openInNewTab": "opens in a new tab",
+    "languageSwitcher": "Change language",
+    "mainNavigation": "Main navigation",
+    "home": "Home",
+    "tools": "Tools and focus",
+    "languages": "Languages"
+  },
+  "hero": {
+    "eyebrow": "Digital Marketing Manager",
+    "headline": "Paid social. Connected CRM.",
+    "accent": "Marketing that follows through.",
+    "availability": "Safi, Morocco · Working worldwide",
+    "services": [
+      "Paid social advertising",
+      "CRM & marketing automation",
+      "SEO & AI-powered content"
+    ],
+    "intro": "I connect the campaign, the content and the follow-up. Since 2018, I’ve helped international teams bring their marketing together, from the first impression to the next customer.",
+    "explore": "Explore my experience",
+    "selected": "Selected work",
+    "stats": [
+      {
+        "value": "8+",
+        "label": "years in digital marketing"
+      },
+      {
+        "value": "3",
+        "label": "languages: English, French & Arabic"
+      },
+      {
+        "value": "{{ TODO: real metric }}",
+        "label": "client projects delivered"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "A LITTLE ABOUT ME",
+    "headline": "Hi, I’m Mahdi.",
+    "accent": "Strategy meets doing.",
+    "lead": "A Digital Marketing Manager connecting creative ideas with the systems that make them work.",
+    "copy": "I work with international teams across paid social, SEO, content and CRM automation. From shaping a campaign to building its follow-up workflow, I enjoy being hands-on with the whole customer journey.",
+    "location": "Safi, Morocco",
+    "credentials": "Education & certifications",
+    "education": "Mathematics and Computer Science coursework at Université Cadi Ayyad (2015–2018). Social Media Marketing Professional Certification from the Institute of Management, Technology and Finance. Generative AI Certification from LinkedIn.",
+    "experience": "My experience"
+  },
+  "sections": {
+    "experience": "PROFESSIONAL EXPERIENCE",
+    "experienceTitle": "A career built",
+    "experienceAccent": "by doing the work.",
+    "experienceIntro": "From community management to connected digital strategy.",
+    "exploreWork": "Explore the work",
+    "work": "SELECTED WORK",
+    "workTitle": "The strategy.",
+    "workAccent": "And the execution.",
+    "workIntro": "My role, the approach and what I delivered.",
+    "projects": "PROJECTS & SYSTEMS",
+    "projectsTitle": "Things I’ve",
+    "projectsAccent": "built and managed.",
+    "projectsIntro": "Publishing, automation and e-commerce in practice.",
+    "expertise": "EXPERTISE",
+    "expertiseTitle": "One perspective.",
+    "expertiseAccent": "The whole journey.",
+    "clients": "CLIENTS & COLLABORATIONS",
+    "clientsTitle": "Different industries.",
+    "clientsAccent": "A wider perspective.",
+    "clientsIntro": "From real estate and fitness to education, retail and hospitality. Explore the businesses and people I’ve worked with, including freelance and agency engagements.",
+    "directory": "Explore the client directory"
+  },
+  "footer": {
+    "eyebrow": "HAVE A ROLE OR A PROJECT IN MIND?",
+    "headline": "Good work starts",
+    "accent": "with a conversation.",
+    "intro": "Open to digital marketing roles and freelance collaborations, remotely and worldwide.",
+    "location": "El Mahdi Bouizmoune · Safi, Morocco",
+    "backToTop": "Back to top",
+    "email": "Email Mahdi",
+    "book": "Book a call"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "company": "Company (optional)",
+    "message": "Message",
+    "submit": "Send message",
+    "pending": "Sending…",
+    "success": "Thank you. Your message has been sent.",
+    "failure": "Your message could not be sent. Please try again or use the email link below.",
+    "required": "Please complete this field.",
+    "invalidEmail": "Enter a valid email address, such as name@example.com.",
+    "tooShort": "Please write at least 10 characters.",
+    "tooLong": "Please shorten this entry.",
+    "slowDown": "Please wait a few seconds and try again.",
+    "privacy": "Your details are used to reply to your enquiry. Your message is processed by our email delivery provider, Resend. It is not sent to analytics.",
+    "website": "Leave this field empty",
+    "noJs": "Enable JavaScript to use this form, or use the email link below."
+  },
+  "directory": {
+    "back": "Back to selected work",
+    "headline": "Many businesses.",
+    "accent": "Individual stories.",
+    "intro": "Organizations, businesses and people I’ve supported through freelance work and agency engagements. Detailed case studies show my responsibilities and deliverables.",
+    "industries": "Client industries",
+    "caseStudy": "Case study",
+    "website": "Website",
+    "crmTitle": "Real estate CRM implementation",
+    "crm": "For a US real estate team, I configured kvCORE lead capture and routing, smart nurture campaigns, the IDX property-search site and pipeline stages. This was implementation work using Inside Real Estate’s platform for a client team.",
+    "employmentTitle": "Employment experience",
+    "employment": "My roles at Bunchful Enterprise, Generation Atomic and Strongman Corporation are covered in my professional experience and selected work.",
+    "logoTitle": "Selected collaborations",
+    "logoPending": "{{ TODO: approved client logo }}",
+    "testimonials": "Client feedback",
+    "testimonialPending": "{{ TODO: approved testimonial }}",
+    "personPending": "{{ TODO: name }}",
+    "rolePending": "{{ TODO: role }}",
+    "companyPending": "{{ TODO: company }}"
+  },
+  "caseStudy": {
+    "allWork": "All work",
+    "role": "My role",
+    "problem": "Problem",
+    "actions": "What I did",
+    "result": "Result",
+    "proof": "Proof",
+    "next": "Next project",
+    "metric": "{{ TODO: metric }}",
+    "metricLabel": "{{ TODO: metric label }}",
+    "timeframe": "{{ TODO: timeframe }}",
+    "proofPending": "{{ TODO: approved screenshot or live proof link }}",
+    "caption": "Selected creative from my portfolio.",
+    "read": "Read the case study",
+    "thumbnail": "Campaign creative",
+    "proofAlt": "Selected campaign creative"
+  },
+  "meta": {
+    "homeTitle": "El Mahdi Bouizmoune | Paid Social & CRM Manager",
+    "homeDescription": "Paid social, SEO, CRM automation and AI content. Explore El Mahdi Bouizmoune’s experience at Bunchful, Generation Atomic, AKAM and Strongman Corporation.",
+    "clientsTitle": "Clients & Collaborations",
+    "clientsDescription": "Explore El Mahdi Bouizmoune’s client experience across real estate, fitness, e-commerce, agencies, hospitality, education and media.",
+    "personDescription": "Digital marketing professional specializing in paid social advertising, CRM automation, SEO and AI content.",
+    "notFound": "Page not found",
+    "notFoundCopy": "This page is not available. Explore my experience or selected work from the homepage.",
+    "returnHome": "Return home"
+  },
+  "experience": [
+    {
+      "company": "Bunchful Enterprise",
+      "role": "Digital Marketing Manager",
+      "period": "May 2023 – Present",
+      "location": "New York · Remote",
+      "copy": "Digital strategy across SEO, social media, content and email automation. WordPress optimization, GA4 reporting, and digital asset management in Adobe Experience.",
+      "slug": "bunchful"
+    },
+    {
+      "company": "Independent consulting · Fiverr",
+      "role": "Freelance Digital Marketing Consultant",
+      "period": "Jan 2018 – Present",
+      "location": "Worldwide · Remote",
+      "copy": "Paid acquisition, social content and lifecycle marketing for startups and established brands. Campaign management across Meta, TikTok, LinkedIn and Pinterest.",
+      "slug": ""
+    },
+    {
+      "company": "AKAM Real Estate",
+      "role": "Social Media Manager · Freelance",
+      "period": "Feb 2024 – Mar 2025",
+      "location": "New York · Remote",
+      "copy": "Social strategy for a NYC residential project, with content calendars, community engagement and a reusable content playbook.",
+      "slug": "akam"
+    },
+    {
+      "company": "Generation Atomic",
+      "role": "Digital Marketing Specialist",
+      "period": "Jan 2022 – May 2023",
+      "location": "Minnesota · Remote",
+      "copy": "Social media and editorial calendars, keyword research, on-page SEO, analytics, e-commerce operations and event campaigns.",
+      "slug": "generation-atomic"
+    },
+    {
+      "company": "Strongman Corporation",
+      "role": "Community Manager",
+      "period": "Feb 2018 – Jan 2022",
+      "location": "Columbus, Ohio · Remote",
+      "copy": "Editorial calendars, community management and paid promotion for national events, supported by creative production and WordPress updates.",
+      "slug": "strongman"
+    }
+  ],
+  "capabilities": [
+    {
+      "title": "Paid social & acquisition",
+      "copy": "Campaign strategy, creative testing and conversion tracking that connect ad spend with the customer journey.",
+      "tools": "Meta Ads · TikTok Ads · LinkedIn Ads · Pinterest Ads · Pixel & CAPI"
+    },
+    {
+      "title": "Marketing automation & CRM",
+      "copy": "Lead capture, organized pipelines and email/SMS follow-up, from the first enquiry to a booked conversation.",
+      "tools": "GoHighLevel · HubSpot · Klaviyo · Mailchimp"
+    },
+    {
+      "title": "SEO, content & analytics",
+      "copy": "Useful content built around search intent, supported by technical improvements and reporting that informs the next decision.",
+      "tools": "GA4 · Search Console · GTM · Looker Studio · WordPress"
+    },
+    {
+      "title": "AI content & e-commerce",
+      "copy": "Practical publishing systems and store operations, combining human direction with AI-assisted production.",
+      "tools": "Shopify · Etsy · Canva · Replicate · Claude Code · Codex"
+    }
+  ],
+  "clients": [
+    {
+      "name": "AKAM · Park City 3 & 4",
+      "sector": "Real estate & property",
+      "context": "Social strategy for a New York residential project.",
+      "scope": "Content calendars, community engagement and a reusable content playbook. Freelance engagement: February 2024–March 2025.",
+      "tools": "Instagram · Facebook · Content strategy",
+      "caseSlug": "akam"
+    },
+    {
+      "name": "Marquis Developers",
+      "sector": "Real estate & property",
+      "context": "Digital marketing for a Dubai residential developer.",
+      "scope": "Property launch content, paid lead generation, English and French creative, and enquiries connected to the sales team.",
+      "tools": "Meta Ads · Instagram · Lead forms · Canva",
+      "href": "https://www.marquisdevelopers.com/"
+    },
+    {
+      "name": "Contract 2 Close, Inc.",
+      "sector": "Real estate & property",
+      "context": "B2B marketing for a transaction coordination service.",
+      "scope": "Content and lead generation for real estate agents and team leads, supported by email nurture.",
+      "tools": "LinkedIn · Facebook · Meta Ads · Email",
+      "href": "https://www.linkedin.com/company/contract-2-close-inc/"
+    },
+    {
+      "name": "Naples Luxury Team",
+      "sector": "Real estate & property",
+      "context": "Social account setup and management for a Florida real estate team.",
+      "scope": "A 2018 engagement covering Facebook, Instagram, Twitter, Pinterest and LinkedIn, with scheduled content, engagement and a handover action plan.",
+      "tools": "Social account setup · Scheduling · Content calendars"
+    },
+    {
+      "name": "Fresh Body",
+      "sector": "E-commerce & retail",
+      "context": "Store management, SEO and social content for a personal care brand.",
+      "scope": "Shopify product and collection pages, search-focused copy, merchandising and social content supporting product discovery.",
+      "tools": "Shopify · SEO · Search Console · Instagram",
+      "href": "https://freshbody.com/"
+    },
+    {
+      "name": "PRIMOVA",
+      "sector": "E-commerce & retail",
+      "context": "Amazon store and social media management for a pet-products brand.",
+      "scope": "Product listings, keywords, A+ content and storefront navigation, supported by customer questions and off-Amazon social content.",
+      "tools": "Amazon Seller Central · A+ content · Keyword research"
+    },
+    {
+      "name": "RetroChic",
+      "sector": "E-commerce & retail",
+      "context": "Social and community marketing for a Moroccan resale marketplace.",
+      "scope": "French and Darija content for buyers and sellers, trust-focused messaging and app-discovery campaigns.",
+      "tools": "Instagram · Facebook · TikTok · App campaigns",
+      "href": "https://retrochic.ma/"
+    },
+    {
+      "name": "Luxury Designers Club",
+      "sector": "E-commerce & retail",
+      "context": "Social content and community management for designer resale.",
+      "scope": "Product-led posts, condition and authenticity content, and responses to customer enquiries.",
+      "tools": "Instagram · Content calendars · Canva"
+    },
+    {
+      "name": "Annonces Maroc (annoncesmaroc.ma)",
+      "sector": "E-commerce & retail",
+      "context": "Website development and operations for a Moroccan classifieds platform.",
+      "scope": "Search-focused categories, marketplace content, moderation and anti-spam workflows for a French and Darija audience.",
+      "tools": "Marketplace development · SEO · Content moderation",
+      "href": "https://www.annoncesmaroc.ma/"
+    },
+    {
+      "name": "Etsy print-on-demand",
+      "sector": "E-commerce & retail",
+      "context": "Store development, listing SEO and creative production.",
+      "scope": "Keyword-led listings, product designs and mockups, pricing, Printful fulfillment and customer support.",
+      "tools": "Etsy SEO · Etsy Ads · Printful · Canva",
+      "caseSlug": "etsy"
+    },
+    {
+      "name": "Hoosier Car Store",
+      "sector": "E-commerce & retail",
+      "context": "Inventory-led social marketing for an independent car dealership.",
+      "scope": "Vehicle posts and short-form content, local paid promotion and responses to customer messages.",
+      "tools": "Facebook · Instagram · Meta Ads · Canva"
+    },
+    {
+      "name": "Raffaella Caffetteria",
+      "sector": "Food & hospitality",
+      "context": "Brand voice and social content for a Brooklyn café.",
+      "scope": "Instagram content, website and menu copy, and local discovery built around the café’s Italian identity.",
+      "tools": "Instagram · Brand voice · Web copy · Local SEO",
+      "href": "https://raffaellanyc.com/"
+    },
+    {
+      "name": "Mandy’s Express Café",
+      "sector": "Food & hospitality",
+      "context": "Social media for a café in Montego Bay, Jamaica.",
+      "scope": "Recurring formats for daily and weekly specials, with content serving local regulars and visitors.",
+      "tools": "Instagram · Facebook · Content calendars · Canva"
+    },
+    {
+      "name": "Gourmet Gather",
+      "sector": "Food & hospitality",
+      "context": "SEO, publishing and automation for a recipe platform.",
+      "scope": "WordPress content, Pinterest distribution, Meta lead campaigns, newsletter workflows and monetization integrations.",
+      "tools": "WordPress · Pinterest · GoHighLevel · SEO",
+      "caseSlug": "gourmet-gather"
+    },
+    {
+      "name": "Bel Hernandez Castillo / Latin Heat",
+      "sector": "Media & entertainment",
+      "context": "Editorial social and audience development for entertainment media.",
+      "scope": "Article and interview distribution, event coverage, bilingual content and publishing aligned with the editorial calendar.",
+      "tools": "Instagram · Facebook · WordPress · Analytics",
+      "href": "https://latinheat.com/author/bel-hernandez-castillo/"
+    },
+    {
+      "name": "Kenny Logic",
+      "sector": "Media & entertainment",
+      "context": "Social media and release promotion for a DJ and recording artist.",
+      "scope": "Release and show campaigns, short-form video from performance material and ongoing fan engagement.",
+      "tools": "Instagram · Facebook · TikTok · CapCut"
+    },
+    {
+      "name": "Tilt Band",
+      "sector": "Media & entertainment",
+      "context": "Band social media and release promotion.",
+      "scope": "Release campaigns, location-specific show promotion and day-to-day fan community management.",
+      "tools": "Instagram · Facebook · Content calendars"
+    },
+    {
+      "name": "South East Magicians",
+      "sector": "Media & entertainment",
+      "context": "Facebook content for a children’s entertainment business.",
+      "scope": "A short 2018 engagement through Sigma Digital: scheduled content, audience engagement and a handover action plan.",
+      "tools": "Facebook · Scheduling · Canva"
+    },
+    {
+      "name": "Skyrocket Your Biz",
+      "sector": "Coaching & professional services",
+      "context": "Lead generation and conversion systems for a coaching brand.",
+      "scope": "GoHighLevel pages, lead capture, CRM pipelines, tagging, email nurture and Meta campaign integration.",
+      "tools": "GoHighLevel · Meta Ads · Pixel & CAPI",
+      "caseSlug": "skyrocket-your-biz"
+    },
+    {
+      "name": "Aaron Pang",
+      "sector": "Coaching & professional services",
+      "context": "Personal-brand and podcast content for an author and coach.",
+      "scope": "Podcast repurposing, book promotion and community content connecting the author’s offers and The Purpose Club.",
+      "tools": "Instagram · LinkedIn · YouTube · CapCut",
+      "href": "https://www.thepurposeclub.co/"
+    },
+    {
+      "name": "IFSCA / Derek Scott",
+      "sector": "Coaching & professional services",
+      "context": "Workshop outreach for a Canadian professional training organization.",
+      "scope": "A 2018 engagement commissioned through an assistant: targeted prospect research and personalized workshop outreach using the supplied contact exclusions.",
+      "tools": "Prospect research · List management · Outreach",
+      "href": "https://ifsca.ca/"
+    },
+    {
+      "name": "EMS Lifestyle",
+      "sector": "Fitness & wellbeing",
+      "context": "Social content for a fitness brand in Abu Dhabi.",
+      "scope": "Fitness-focused content and social creative, documented in my portfolio.",
+      "tools": "Social content · Creative production"
+    },
+    {
+      "name": "Lionlamb Personal Training",
+      "sector": "Fitness & wellbeing",
+      "context": "Social content and local lead generation for a personal training business.",
+      "scope": "Coaching and client-results content, consultation calls to action and locally targeted promotion.",
+      "tools": "Facebook · Instagram · Meta Ads · Canva"
+    },
+    {
+      "name": "Aesthetica Maria",
+      "sector": "Fitness & wellbeing",
+      "context": "Booking-focused social content for an aesthetics practice.",
+      "scope": "Treatment and aftercare content, visual creative and calls to action connecting enquiries to bookings.",
+      "tools": "Instagram · Facebook · Meta Ads · Canva"
+    },
+    {
+      "name": "Excilify",
+      "sector": "Agencies",
+      "context": "Digital marketing within a web and digital solutions agency.",
+      "scope": "SEO, content and paid-channel delivery, working alongside the website and booking-system teams.",
+      "tools": "SEO · Analytics · Paid social · WordPress",
+      "href": "https://excilify.com/"
+    },
+    {
+      "name": "Vestra Marketing",
+      "sector": "Agencies",
+      "context": "Marketing delivery through a small-business agency.",
+      "scope": "Social content, campaigns and web copy delivered to the agency’s client briefs and brand standards.",
+      "tools": "Facebook · Instagram · Content production · Canva"
+    },
+    {
+      "name": "GoGetCrypto",
+      "sector": "Additional engagements",
+      "context": "Social media management.",
+      "scope": "An additional engagement from my freelance client roster.",
+      "tools": "Social media"
+    }
+  ],
+  "work": {
+    "akam": {
+      "slug": "akam",
+      "name": "AKAM · New York",
+      "title": "A place to call home.",
+      "category": "Real estate / Social & paid media",
+      "intro": "Connecting a residential community with the people who could call it home.",
+      "context": "For AKAM’s Park City 3 & 4 Apartments, I managed digital content around the properties, everyday amenities, and the surrounding community. The work brought a consistent, lifestyle-focused voice to a New York residential brand.",
+      "approach": [
+        "Built a content calendar around property highlights, neighborhood context, and community amenities.",
+        "Created social graphics and copy for Instagram and Facebook, using local context to make each post relevant.",
+        "Supported the organic content with hyperlocal paid campaigns aimed at audiences in Queens and Brooklyn."
+      ],
+      "delivered": "A coordinated social presence, a library of property-focused creative assets, and a content playbook the team could continue using.",
+      "tools": [
+        "Instagram",
+        "Facebook",
+        "Meta Ads",
+        "Canva",
+        "Content strategy"
+      ],
+      "image": "akam.png",
+      "theme": "blue",
+      "role": "Social Media Manager · Freelance",
+      "period": "Feb 2024 – Mar 2025",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "akam.png",
+        "caption": "Selected creative from my portfolio.",
+        "href": ""
+      }
+    },
+    "gourmet-gather": {
+      "slug": "gourmet-gather",
+      "name": "Gourmet Gather",
+      "title": "From inspiration to discovery.",
+      "category": "Client project / Content & automation",
+      "intro": "A client recipe platform connecting useful content with search, social discovery and email automation.",
+      "context": "I built and managed Gourmet Gather, a WordPress food and recipe platform connecting search strategy, Pinterest content, email workflows and monetization. The project brought the complete publishing process into one system.",
+      "approach": [
+        "Developed recipe content around search intent, seasonal topics, and Pinterest discovery.",
+        "Created visuals and a consistent publishing schedule, with small paid campaigns supporting promising content.",
+        "Connected lead generation with GoHighLevel email workflows and explored display advertising and affiliate revenue."
+      ],
+      "delivered": "A working content and monetization platform bringing together WordPress publishing, Pinterest distribution, lead capture, and automated follow-up.",
+      "tools": [
+        "WordPress",
+        "Pinterest",
+        "Rank Math",
+        "GoHighLevel",
+        "Search Console",
+        "Generative AI"
+      ],
+      "image": "gourmet.png",
+      "theme": "green",
+      "role": "Content, SEO & marketing automation",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "gourmet.png",
+        "caption": "Selected creative from my portfolio.",
+        "href": ""
+      }
+    },
+    "bunchful": {
+      "slug": "bunchful",
+      "name": "Bunchful Enterprise",
+      "title": "Giving a purpose its voice.",
+      "category": "Social impact / Brand & content",
+      "intro": "Turning a mission of generosity into stories people can connect with.",
+      "context": "Bunchful Enterprise works in generosity, community giving, and corporate philanthropy. My role brought its purpose into digital communication, connecting brand storytelling, social content, and the website experience.",
+      "approach": [
+        "Developed campaign narratives and social content around giving, kindness, and community impact.",
+        "Aligned copy, visuals, and campaign direction with the organization’s identity and longer-term goals.",
+        "Worked on WordPress SEO and user experience, supported by analytics and digital asset management."
+      ],
+      "delivered": "A consistent creative direction and communication framework spanning campaign content, social channels, and website work.",
+      "tools": [
+        "WordPress",
+        "GA4",
+        "Content strategy",
+        "Email automation",
+        "Digital asset management"
+      ],
+      "image": "bunchful.png",
+      "theme": "pink",
+      "role": "Digital Marketing Manager",
+      "period": "May 2023 – Present",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "bunchful.png",
+        "caption": "Selected creative from my portfolio.",
+        "href": ""
+      }
+    },
+    "content-studio": {
+      "slug": "content-studio",
+      "name": "AI Content Studio",
+      "title": "Less friction. More creating.",
+      "category": "Application project / AI publishing",
+      "intro": "A desktop application that brings the content publishing workflow into one place.",
+      "context": "Content production involves much more than writing. Research, images, SEO checks, distribution, and publishing can turn into disconnected tasks. I built AI Content Studio to connect those steps in a desktop application.",
+      "approach": [
+        "Designed a workflow from topic research and AI-assisted drafting through image creation, SEO validation, and WordPress publishing.",
+        "Added supporting outputs for Pinterest, Facebook, Instagram, scheduling CSVs, affiliate recommendations, and video.",
+        "Built with Electron and React, integrating AI services and secure credential storage for connected publishing tools."
+      ],
+      "delivered": "A desktop content application that combines research, generation, validation, and publishing workflows, with multiple formats for distribution.",
+      "tools": [
+        "Electron",
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Replicate API",
+        "WordPress",
+        "AI-assisted development"
+      ],
+      "theme": "orange-panel",
+      "role": "Application design & development",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "skyrocket-your-biz": {
+      "slug": "skyrocket-your-biz",
+      "name": "Skyrocket Your Biz",
+      "title": "From first click to next conversation.",
+      "category": "Lead generation / CRM & automation",
+      "intro": "Connecting acquisition with the follow-up that helps a lead move forward.",
+      "context": "For Skyrocket Your Biz, I built a lead generation and masterclass funnel using GoHighLevel. The system connected campaign traffic, contact capture, pipeline organization, and follow-up messaging.",
+      "approach": [
+        "Built the website, landing pages, and lead forms around the masterclass and strategy-call journey.",
+        "Configured contact tagging, a CRM pipeline, and automated email and messaging workflows.",
+        "Connected Meta Instant Form leads to nurturing sequences and added conversion tracking with Meta Pixel and Conversions API."
+      ],
+      "delivered": "An end-to-end funnel connecting lead capture, CRM organization, automated nurturing, and strategy-call booking.",
+      "tools": [
+        "GoHighLevel",
+        "Meta Ads",
+        "Meta Pixel",
+        "Conversions API",
+        "CRM workflows"
+      ],
+      "theme": "blue",
+      "role": "Lead generation & CRM implementation",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "strongman": {
+      "slug": "strongman",
+      "name": "Strongman Corporation",
+      "title": "Built around the community.",
+      "category": "Strength sports / Social & events",
+      "intro": "Supporting a national strength-sports community through content and event marketing.",
+      "context": "At Strongman Corporation, I worked across social content, community management, paid campaigns, and the event website. The focus was to connect athletes and fans with the organization and its competitions.",
+      "approach": [
+        "Managed editorial calendars and coordinated content across social platforms.",
+        "Created athlete features, event promotion, and branded graphic and video assets.",
+        "Supported event registrations with paid media and maintained event information on the WordPress website."
+      ],
+      "delivered": "A coordinated content and event-marketing operation, with reusable creative assets and ongoing community communication.",
+      "tools": [
+        "Social strategy",
+        "Paid media",
+        "WordPress",
+        "Canva",
+        "Photoshop"
+      ],
+      "theme": "dark-panel",
+      "role": "Community Manager",
+      "period": "Feb 2018 – Jan 2022",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "generation-atomic": {
+      "slug": "generation-atomic",
+      "name": "Generation Atomic",
+      "title": "Make a complex subject accessible.",
+      "category": "Clean energy / Digital marketing",
+      "intro": "Social content, search visibility and event campaigns for a nuclear energy advocacy organization.",
+      "context": "As Digital Marketing Specialist from January 2022 to May 2023, I supported Generation Atomic’s digital communications. The work connected public-facing content with search, reporting, an e-commerce store and event promotion.",
+      "approach": [
+        "Led social strategy and editorial calendars across Facebook, LinkedIn, Twitter and Instagram.",
+        "Conducted keyword research and on-page SEO, using Google Analytics reporting to evaluate campaigns.",
+        "Managed the e-commerce store and coordinated digital event campaigns."
+      ],
+      "delivered": "Editorial calendars, search-focused content, performance reporting, store operations and coordinated event promotion.",
+      "tools": [
+        "Social media strategy",
+        "SEO",
+        "Google Analytics",
+        "E-commerce",
+        "Event campaigns"
+      ],
+      "theme": "green",
+      "role": "Digital Marketing Specialist",
+      "period": "Jan 2022 – May 2023",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "etsy": {
+      "slug": "etsy",
+      "name": "Print-on-demand e-commerce",
+      "title": "From a search to a storefront.",
+      "category": "Client project / Etsy & e-commerce",
+      "intro": "Keyword-led product listings, creative production and store operations for a print-on-demand apparel shop.",
+      "context": "The ExclusiveShirtDesign project brought together Etsy search, design production, conversion optimization and fulfillment. From 2024, I worked across store development and management, covering both the product and the customer experience.",
+      "approach": [
+        "Researched keywords and tags to build relevant, discoverable product listings.",
+        "Produced designs and mockups using generative AI and Canva, alongside pricing and conversion improvements.",
+        "Connected Printful fulfillment and managed customer service and review workflows."
+      ],
+      "delivered": "A managed apparel storefront with search-focused listings, product creative, fulfillment workflows and customer support.",
+      "tools": [
+        "Etsy SEO",
+        "Etsy Ads",
+        "Printful",
+        "Canva",
+        "Pinterest",
+        "Generative AI"
+      ],
+      "theme": "orange-panel",
+      "role": "Store development & e-commerce operations",
+      "period": "From 2024",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    }
+  },
+  "testimonials": [
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    },
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    },
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    }
+  ],
+  "logos": [
+    {
+      "name": "AKAM",
+      "src": ""
+    },
+    {
+      "name": "Fresh Body",
+      "src": ""
+    },
+    {
+      "name": "PRIMOVA",
+      "src": ""
+    },
+    {
+      "name": "RetroChic",
+      "src": ""
+    },
+    {
+      "name": "Raffaella",
+      "src": ""
+    },
+    {
+      "name": "Skyrocket Your Biz",
+      "src": ""
+    },
+    {
+      "name": "Gourmet Gather",
+      "src": ""
+    },
+    {
+      "name": "Excilify",
+      "src": ""
+    }
+  ]
+}

@@ -1,27 +1,4 @@
-import Link from 'next/link';
-export default function NotFound() {
-  return (
-    <main id="main" className="wrap section">
-      <Link prefetch={false} href="/" className="wordmark">
-        mahdi b<span>.</span>
-      </Link>
-      <p className="eyebrow" style={{ marginTop: 60 }}>
-        404 / NOT HERE
-      </p>
-      <h1
-        style={{
-          fontSize: 'clamp(40px,7vw,90px)',
-          lineHeight: 1.1,
-          marginTop: 20,
-        }}
-      >
-        Let’s get you
-        <br />
-        back to the work.
-      </h1>
-      <Link prefetch={false} className="text-link" href="/#work">
-        Explore selected work ↗
-      </Link>
-    </main>
-  );
-}
+/* oxlint-disable next/no-html-link-for-pages -- Full document navigation preserves prerendered locale documents. */
+import {Header,Footer,Contact} from '../components/portfolio-shell';
+import {dictionary} from '../lib/i18n';
+export default function NotFound(){const d=dictionary('en');return <><Header/><main id="main" tabIndex={-1}><section className="wrap section"><h1>{d.meta.notFound}</h1><p>{d.meta.notFoundCopy}</p><a className="button outline" href="/">{d.meta.returnHome}</a></section><Contact/></main><Footer/></>;}

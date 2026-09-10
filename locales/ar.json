@@ -1,0 +1,859 @@
+{
+  "nav": {
+    "about": "نبذة عني",
+    "experience": "الخبرة",
+    "work": "الأعمال",
+    "clients": "العملاء",
+    "cta": "لنتواصل",
+    "downloadCv": "تحميل السيرة الذاتية"
+  },
+  "a11y": {
+    "skipToContent": "الانتقال إلى المحتوى",
+    "openInNewTab": "يفتح في علامة تبويب جديدة",
+    "languageSwitcher": "تغيير اللغة",
+    "mainNavigation": "التنقل الرئيسي",
+    "home": "الرئيسية",
+    "tools": "الأدوات والمجالات",
+    "languages": "اللغات"
+  },
+  "hero": {
+    "eyebrow": "مدير التسويق الرقمي",
+    "headline": "إعلانات اجتماعية. CRM متكامل.",
+    "accent": "تسويق يتابع كل خطوة.",
+    "availability": "آسفي، المغرب · أعمل مع فرق حول العالم",
+    "services": [
+      "الإعلانات على منصات التواصل الاجتماعي",
+      "CRM وأتمتة التسويق",
+      "SEO والمحتوى المدعوم بالذكاء الاصطناعي"
+    ],
+    "intro": "أربط الحملات بالمحتوى ومتابعة العملاء. منذ 2018، أساعد فرقاً دولية على تنسيق تسويقها، من الانطباع الأول إلى اكتساب العميل التالي.",
+    "explore": "اطّلع على خبرتي",
+    "selected": "أعمال مختارة",
+    "stats": [
+      {
+        "value": "8+",
+        "label": "سنوات في التسويق الرقمي"
+      },
+      {
+        "value": "3",
+        "label": "لغات: الإنجليزية والفرنسية والعربية"
+      },
+      {
+        "value": "{{ TODO: real metric }}",
+        "label": "مشاريع عملاء تم تسليمها"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "نبذة عني",
+    "headline": "مرحباً، أنا Mahdi.",
+    "accent": "أحوّل الاستراتيجية إلى عمل.",
+    "lead": "مدير تسويق رقمي يربط الأفكار الإبداعية بالأنظمة التي تساعد على تنفيذها.",
+    "copy": "أعمل مع فرق دولية في الإعلانات الاجتماعية وSEO والمحتوى وأتمتة CRM. من صياغة الحملة إلى بناء مسار المتابعة، أفضّل العمل مباشرة على رحلة العميل بأكملها.",
+    "location": "آسفي، المغرب",
+    "credentials": "التعليم والشهادات",
+    "education": "دراسة مقررات الرياضيات وعلوم الحاسوب في Université Cadi Ayyad خلال 2015–2018. شهادة مهنية في التسويق عبر وسائل التواصل الاجتماعي من Institute of Management, Technology and Finance. شهادة في الذكاء الاصطناعي التوليدي من LinkedIn.",
+    "experience": "خبرتي المهنية"
+  },
+  "sections": {
+    "experience": "الخبرة المهنية",
+    "experienceTitle": "مسار مهني بنيته",
+    "experienceAccent": "بالممارسة.",
+    "experienceIntro": "من إدارة المجتمعات إلى استراتيجية رقمية مترابطة.",
+    "exploreWork": "استكشف العمل",
+    "work": "أعمال مختارة",
+    "workTitle": "الاستراتيجية.",
+    "workAccent": "والتنفيذ.",
+    "workIntro": "دوري ومنهجي وما سلّمته.",
+    "projects": "المشاريع والأنظمة",
+    "projectsTitle": "ما قمت",
+    "projectsAccent": "ببنائه وإدارته.",
+    "projectsIntro": "النشر والأتمتة والتجارة الإلكترونية في التطبيق.",
+    "expertise": "مجالات الخبرة",
+    "expertiseTitle": "رؤية واحدة.",
+    "expertiseAccent": "لرحلة العميل كاملة.",
+    "clients": "العملاء والتعاونات",
+    "clientsTitle": "قطاعات متنوعة.",
+    "clientsAccent": "منظور أوسع.",
+    "clientsIntro": "من العقارات واللياقة إلى التعليم والتجارة والضيافة. تعرّف على الشركات والأشخاص الذين عملت معهم، ضمن مشاريع مستقلة وتعاونات مع وكالات.",
+    "directory": "استعرض دليل العملاء"
+  },
+  "footer": {
+    "eyebrow": "هل لديكم فرصة عمل أو مشروع؟",
+    "headline": "يبدأ العمل الجيد",
+    "accent": "بمحادثة.",
+    "intro": "متاح لفرص العمل في التسويق الرقمي والتعاون المستقل، عن بُعد ومع فرق حول العالم.",
+    "location": "El Mahdi Bouizmoune · آسفي، المغرب",
+    "backToTop": "العودة إلى الأعلى",
+    "email": "راسل Mahdi بالبريد",
+    "book": "احجز مكالمة"
+  },
+  "form": {
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "company": "الشركة (اختياري)",
+    "message": "الرسالة",
+    "submit": "إرسال الرسالة",
+    "pending": "جارٍ الإرسال…",
+    "success": "شكراً لكم. تم إرسال رسالتكم.",
+    "failure": "تعذّر إرسال الرسالة. يرجى المحاولة مجدداً أو استخدام رابط البريد أدناه.",
+    "required": "يرجى تعبئة هذا الحقل.",
+    "invalidEmail": "أدخلوا عنوان بريد صحيحاً، مثل name@example.com.",
+    "tooShort": "يرجى كتابة 10 أحرف على الأقل.",
+    "tooLong": "يرجى اختصار النص.",
+    "slowDown": "يرجى الانتظار بضع ثوانٍ ثم المحاولة مجدداً.",
+    "privacy": "تُستخدم بياناتكم للرد على استفساركم. تعالج خدمة Resend رسالتكم لإيصال البريد. لا نرسل محتوى الرسالة إلى أدوات التحليلات.",
+    "website": "اتركوا هذا الحقل فارغاً",
+    "noJs": "فعّلوا JavaScript لاستخدام النموذج، أو استخدموا رابط البريد أدناه."
+  },
+  "directory": {
+    "back": "العودة إلى الأعمال المختارة",
+    "headline": "شركات عديدة.",
+    "accent": "وقصص مختلفة.",
+    "intro": "مؤسسات وشركات وأفراد دعمتهم من خلال العمل المستقل والتعاون مع الوكالات. توضّح دراسات الحالة مسؤولياتي وما سلّمته.",
+    "industries": "قطاعات العملاء",
+    "caseStudy": "دراسة الحالة",
+    "website": "الموقع الإلكتروني",
+    "crmTitle": "تنفيذ أنظمة CRM للعقارات",
+    "crm": "لفريق عقاري أمريكي، أعددت جمع العملاء المحتملين وتوزيعهم في kvCORE، وحملات المتابعة، وموقع البحث العقاري IDX، ومراحل مسار المبيعات. كان العمل تنفيذاً لمنصة Inside Real Estate لصالح فريق عميل.",
+    "employmentTitle": "الخبرة الوظيفية",
+    "employment": "تجدون أدواري لدى Bunchful Enterprise وGeneration Atomic وStrongman Corporation ضمن الخبرة المهنية والأعمال المختارة.",
+    "logoTitle": "تعاونات مختارة",
+    "logoPending": "{{ TODO: approved client logo }}",
+    "testimonials": "آراء العملاء",
+    "testimonialPending": "{{ TODO: approved testimonial }}",
+    "personPending": "{{ TODO: name }}",
+    "rolePending": "{{ TODO: role }}",
+    "companyPending": "{{ TODO: company }}"
+  },
+  "caseStudy": {
+    "allWork": "جميع الأعمال",
+    "role": "دوري",
+    "problem": "المشكلة",
+    "actions": "ما قمت به",
+    "result": "النتيجة",
+    "proof": "الأدلة",
+    "next": "المشروع التالي",
+    "metric": "{{ TODO: metric }}",
+    "metricLabel": "{{ TODO: metric label }}",
+    "timeframe": "{{ TODO: timeframe }}",
+    "proofPending": "{{ TODO: approved screenshot or live proof link }}",
+    "caption": "نموذج إبداعي مختار من ملف أعمالي.",
+    "read": "اقرأ دراسة الحالة",
+    "thumbnail": "تصميم للحملة",
+    "proofAlt": "تصميم مختار من الحملة"
+  },
+  "meta": {
+    "homeTitle": "El Mahdi Bouizmoune | الإعلانات الاجتماعية وCRM",
+    "homeDescription": "إعلانات اجتماعية وSEO وأتمتة CRM ومحتوى بالذكاء الاصطناعي. استكشفوا خبرة El Mahdi Bouizmoune لدى Bunchful وGeneration Atomic وAKAM وStrongman Corporation.",
+    "clientsTitle": "العملاء والتعاونات",
+    "clientsDescription": "استكشفوا خبرة El Mahdi Bouizmoune مع عملاء في العقارات واللياقة والتجارة الإلكترونية والوكالات والضيافة والتعليم والإعلام.",
+    "personDescription": "متخصص في التسويق الرقمي والإعلانات الاجتماعية وأتمتة CRM وSEO والمحتوى المدعوم بالذكاء الاصطناعي.",
+    "notFound": "الصفحة غير موجودة",
+    "notFoundCopy": "هذه الصفحة غير متاحة. استكشفوا خبرتي وأعمالي المختارة من الصفحة الرئيسية.",
+    "returnHome": "العودة إلى الرئيسية"
+  },
+  "experience": [
+    {
+      "company": "Bunchful Enterprise",
+      "role": "مدير التسويق الرقمي",
+      "period": "مايو 2023 – حتى الآن",
+      "location": "New York · عن بُعد",
+      "copy": "استراتيجية رقمية تشمل SEO والتواصل الاجتماعي والمحتوى وأتمتة البريد. تحسين WordPress وتقارير GA4 وإدارة الأصول الرقمية في Adobe Experience.",
+      "slug": "bunchful"
+    },
+    {
+      "company": "استشارات مستقلة · Fiverr",
+      "role": "مستشار مستقل في التسويق الرقمي",
+      "period": "يناير 2018 – حتى الآن",
+      "location": "حول العالم · عن بُعد",
+      "copy": "اكتساب العملاء بالإعلانات والمحتوى الاجتماعي وتسويق دورة حياة العميل للشركات الناشئة والعلامات القائمة. إدارة الحملات على Meta وTikTok وLinkedIn وPinterest.",
+      "slug": ""
+    },
+    {
+      "company": "AKAM Real Estate",
+      "role": "مدير وسائل التواصل الاجتماعي · مستقل",
+      "period": "فبراير 2024 – مارس 2025",
+      "location": "New York · عن بُعد",
+      "copy": "استراتيجية اجتماعية لمشروع سكني في نيويورك، تشمل تقاويم المحتوى والتفاعل مع المجتمع ودليل محتوى قابل لإعادة الاستخدام.",
+      "slug": "akam"
+    },
+    {
+      "company": "Generation Atomic",
+      "role": "متخصص التسويق الرقمي",
+      "period": "يناير 2022 – مايو 2023",
+      "location": "Minnesota · عن بُعد",
+      "copy": "إدارة التواصل الاجتماعي والتقاويم التحريرية وبحث الكلمات المفتاحية وSEO والتحليلات وعمليات التجارة الإلكترونية والحملات الخاصة بالفعاليات.",
+      "slug": "generation-atomic"
+    },
+    {
+      "company": "Strongman Corporation",
+      "role": "مدير المجتمع",
+      "period": "فبراير 2018 – يناير 2022",
+      "location": "Columbus, Ohio · عن بُعد",
+      "copy": "تقاويم تحريرية وإدارة المجتمع وترويج مدفوع للفعاليات الوطنية، مع إنتاج التصاميم وتحديث موقع WordPress.",
+      "slug": "strongman"
+    }
+  ],
+  "capabilities": [
+    {
+      "title": "الإعلانات الاجتماعية واكتساب العملاء",
+      "copy": "استراتيجية الحملات واختبار التصاميم وتتبع التحويلات لربط الإنفاق الإعلاني برحلة العميل.",
+      "tools": "Meta Ads · TikTok Ads · LinkedIn Ads · Pinterest Ads · Pixel & CAPI"
+    },
+    {
+      "title": "أتمتة التسويق وCRM",
+      "copy": "جمع العملاء المحتملين وتنظيم مسارات المبيعات والمتابعة بالبريد والرسائل، من أول استفسار إلى حجز موعد.",
+      "tools": "GoHighLevel · HubSpot · Klaviyo · Mailchimp"
+    },
+    {
+      "title": "SEO والمحتوى والتحليلات",
+      "copy": "محتوى مفيد يستند إلى نية البحث، مع تحسينات تقنية وتقارير تساعد على اتخاذ القرار التالي.",
+      "tools": "GA4 · Search Console · GTM · Looker Studio · WordPress"
+    },
+    {
+      "title": "محتوى الذكاء الاصطناعي والتجارة الإلكترونية",
+      "copy": "أنظمة نشر وعمليات متاجر تجمع التوجيه البشري والإنتاج بمساعدة الذكاء الاصطناعي.",
+      "tools": "Shopify · Etsy · Canva · Replicate · Claude Code · Codex"
+    }
+  ],
+  "clients": [
+    {
+      "name": "AKAM · Park City 3 & 4",
+      "sector": "العقارات",
+      "context": "استراتيجية اجتماعية لمشروع سكني في نيويورك.",
+      "scope": "تقاويم محتوى وتفاعل مجتمعي ودليل قابل لإعادة الاستخدام. تعاون مستقل من فبراير 2024 إلى مارس 2025.",
+      "tools": "Instagram · Facebook · استراتيجية المحتوى",
+      "caseSlug": "akam"
+    },
+    {
+      "name": "Marquis Developers",
+      "sector": "العقارات",
+      "context": "تسويق رقمي لمطوّر عقاري سكني في دبي.",
+      "scope": "محتوى إطلاق العقارات وتوليد العملاء المحتملين بالإعلانات وتصاميم بالإنجليزية والفرنسية وربط الاستفسارات بفريق المبيعات.",
+      "tools": "Meta Ads · Instagram · نماذج العملاء المحتملين · Canva",
+      "href": "https://www.marquisdevelopers.com/"
+    },
+    {
+      "name": "Contract 2 Close, Inc.",
+      "sector": "العقارات",
+      "context": "تسويق بين الشركات لخدمة تنسيق المعاملات العقارية.",
+      "scope": "محتوى وتوليد عملاء محتملين يستهدفان الوكلاء العقاريين ومديري الفرق، مع متابعة بالبريد.",
+      "tools": "LinkedIn · Facebook · Meta Ads · البريد الإلكتروني",
+      "href": "https://www.linkedin.com/company/contract-2-close-inc/"
+    },
+    {
+      "name": "Naples Luxury Team",
+      "sector": "العقارات",
+      "context": "إنشاء حسابات اجتماعية وإدارتها لفريق عقاري في فلوريدا.",
+      "scope": "مشروع في 2018 شمل Facebook وInstagram وTwitter وPinterest وLinkedIn، مع نشر مجدول وتفاعل وخطة عمل عند التسليم.",
+      "tools": "إنشاء الحسابات الاجتماعية · الجدولة · تقاويم المحتوى"
+    },
+    {
+      "name": "Fresh Body",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "إدارة متجر وSEO ومحتوى اجتماعي لعلامة عناية شخصية.",
+      "scope": "صفحات منتجات ومجموعات Shopify ونصوص ملائمة للبحث وعرض المنتجات ومحتوى اجتماعي يساعد على اكتشافها.",
+      "tools": "Shopify · SEO · Search Console · Instagram",
+      "href": "https://freshbody.com/"
+    },
+    {
+      "name": "PRIMOVA",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "إدارة متجر Amazon والتواصل الاجتماعي لعلامة منتجات حيوانات أليفة.",
+      "scope": "قوائم منتجات وكلمات مفتاحية ومحتوى A+ وتنقل المتجر، مع أسئلة العملاء ومحتوى اجتماعي خارج Amazon.",
+      "tools": "Amazon Seller Central · محتوى A+ · بحث الكلمات المفتاحية"
+    },
+    {
+      "name": "RetroChic",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "تسويق اجتماعي ومجتمعي لسوق مغربي لإعادة البيع.",
+      "scope": "محتوى بالفرنسية والدارجة للمشترين والبائعين ورسائل لبناء الثقة وحملات لاكتشاف التطبيق.",
+      "tools": "Instagram · Facebook · TikTok · حملات التطبيق",
+      "href": "https://retrochic.ma/"
+    },
+    {
+      "name": "Luxury Designers Club",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "محتوى اجتماعي وإدارة مجتمع لإعادة بيع قطع المصممين.",
+      "scope": "منشورات منتجات ومحتوى حول حالة القطع وأصالتها والرد على استفسارات العملاء.",
+      "tools": "Instagram · تقاويم المحتوى · Canva"
+    },
+    {
+      "name": "Annonces Maroc (annoncesmaroc.ma)",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "تطوير وتشغيل منصة مغربية للإعلانات المبوبة.",
+      "scope": "تصنيف ملائم للبحث ومحتوى للسوق ومسارات للإشراف ومكافحة الرسائل المزعجة لجمهور يتحدث الفرنسية والدارجة.",
+      "tools": "تطوير الأسواق الإلكترونية · SEO · الإشراف على المحتوى",
+      "href": "https://www.annoncesmaroc.ma/"
+    },
+    {
+      "name": "الطباعة عند الطلب على Etsy",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "تطوير متجر وSEO لقوائم المنتجات وإنتاج إبداعي.",
+      "scope": "قوائم مبنية على الكلمات المفتاحية وتصاميم ونماذج عرض وتسعير وتنفيذ الطلبات عبر Printful ودعم العملاء.",
+      "tools": "Etsy SEO · Etsy Ads · Printful · Canva",
+      "caseSlug": "etsy"
+    },
+    {
+      "name": "Hoosier Car Store",
+      "sector": "التجارة الإلكترونية والتجزئة",
+      "context": "تسويق اجتماعي يركز على مخزون معرض سيارات مستقل.",
+      "scope": "منشورات سيارات ومحتوى قصير وترويج محلي مدفوع والرد على رسائل العملاء.",
+      "tools": "Facebook · Instagram · Meta Ads · Canva"
+    },
+    {
+      "name": "Raffaella Caffetteria",
+      "sector": "المطاعم والضيافة",
+      "context": "صوت علامة ومحتوى اجتماعي لمقهى في بروكلين.",
+      "scope": "محتوى Instagram ونصوص الموقع والقائمة وتعزيز الاكتشاف المحلي حول الهوية الإيطالية للمقهى.",
+      "tools": "Instagram · صوت العلامة · نصوص المواقع · SEO محلي",
+      "href": "https://raffaellanyc.com/"
+    },
+    {
+      "name": "Mandy’s Express Café",
+      "sector": "المطاعم والضيافة",
+      "context": "إدارة التواصل الاجتماعي لمقهى في Montego Bay بجامايكا.",
+      "scope": "صيغ متكررة للعروض اليومية والأسبوعية تخدم الزبائن المعتادين والزوار.",
+      "tools": "Instagram · Facebook · تقاويم المحتوى · Canva"
+    },
+    {
+      "name": "Gourmet Gather",
+      "sector": "المطاعم والضيافة",
+      "context": "SEO ونشر وأتمتة لمنصة وصفات.",
+      "scope": "محتوى WordPress وتوزيع Pinterest وحملات Meta ومسارات النشرة البريدية وتكاملات تحقيق الدخل.",
+      "tools": "WordPress · Pinterest · GoHighLevel · SEO",
+      "caseSlug": "gourmet-gather"
+    },
+    {
+      "name": "Bel Hernandez Castillo / Latin Heat",
+      "sector": "الإعلام والترفيه",
+      "context": "محتوى اجتماعي تحريري وتنمية جمهور لوسيلة إعلام ترفيهية.",
+      "scope": "توزيع المقالات والمقابلات وتغطية الفعاليات ومحتوى ثنائي اللغة ونشر منسجم مع التقويم التحريري.",
+      "tools": "Instagram · Facebook · WordPress · التحليلات",
+      "href": "https://latinheat.com/author/bel-hernandez-castillo/"
+    },
+    {
+      "name": "Kenny Logic",
+      "sector": "الإعلام والترفيه",
+      "context": "إدارة التواصل الاجتماعي وترويج الإصدارات لفنان وDJ.",
+      "scope": "حملات إصدارات وحفلات وفيديوهات قصيرة من العروض وتفاعل مستمر مع الجمهور.",
+      "tools": "Instagram · Facebook · TikTok · CapCut"
+    },
+    {
+      "name": "Tilt Band",
+      "sector": "الإعلام والترفيه",
+      "context": "إدارة التواصل الاجتماعي وترويج إصدارات فرقة موسيقية.",
+      "scope": "حملات إصدارات وترويج حفلات بحسب المدينة وإدارة يومية لمجتمع المعجبين.",
+      "tools": "Instagram · Facebook · تقاويم المحتوى"
+    },
+    {
+      "name": "South East Magicians",
+      "sector": "الإعلام والترفيه",
+      "context": "محتوى Facebook لشركة ترفيه للأطفال.",
+      "scope": "تعاون قصير في 2018 عبر Sigma Digital: محتوى مجدول وتفاعل مع الجمهور وخطة عمل عند التسليم.",
+      "tools": "Facebook · الجدولة · Canva"
+    },
+    {
+      "name": "Skyrocket Your Biz",
+      "sector": "التدريب والخدمات المهنية",
+      "context": "توليد العملاء المحتملين وأنظمة تحويل لعلامة تدريب.",
+      "scope": "صفحات GoHighLevel وجمع العملاء المحتملين ومسارات CRM والوسوم والمتابعة البريدية وربط حملات Meta.",
+      "tools": "GoHighLevel · Meta Ads · Pixel & CAPI",
+      "caseSlug": "skyrocket-your-biz"
+    },
+    {
+      "name": "Aaron Pang",
+      "sector": "التدريب والخدمات المهنية",
+      "context": "علامة شخصية ومحتوى بودكاست لكاتب ومدرّب.",
+      "scope": "إعادة توظيف حلقات البودكاست وترويج الكتب ومحتوى مجتمعي يربط عروض الكاتب وThe Purpose Club.",
+      "tools": "Instagram · LinkedIn · YouTube · CapCut",
+      "href": "https://www.thepurposeclub.co/"
+    },
+    {
+      "name": "IFSCA / Derek Scott",
+      "sector": "التدريب والخدمات المهنية",
+      "context": "تواصل لاستقطاب المشاركين في ورشات مؤسسة كندية للتدريب المهني.",
+      "scope": "مشروع في 2018 بتكليف من مساعدة: بحث مستهدف عن المشاركين المحتملين وتواصل مخصص للورشات مع احترام قائمة جهات الاتصال المستثناة.",
+      "tools": "بحث العملاء المحتملين · إدارة القوائم · التواصل المباشر",
+      "href": "https://ifsca.ca/"
+    },
+    {
+      "name": "EMS Lifestyle",
+      "sector": "اللياقة والعافية",
+      "context": "محتوى اجتماعي لعلامة لياقة في أبوظبي.",
+      "scope": "محتوى وتصاميم للياقة موثقة في ملف أعمالي.",
+      "tools": "المحتوى الاجتماعي · الإنتاج الإبداعي"
+    },
+    {
+      "name": "Lionlamb Personal Training",
+      "sector": "اللياقة والعافية",
+      "context": "محتوى اجتماعي وتوليد عملاء محليين لخدمة تدريب شخصي.",
+      "scope": "محتوى حول التدريب ونتائج العملاء ودعوات لحجز الاستشارات وترويج موجه محلياً.",
+      "tools": "Facebook · Instagram · Meta Ads · Canva"
+    },
+    {
+      "name": "Aesthetica Maria",
+      "sector": "اللياقة والعافية",
+      "context": "محتوى اجتماعي يركز على الحجوزات لممارسة تجميلية.",
+      "scope": "محتوى علاجات وعناية لاحقة وتصاميم ودعوات تربط الاستفسارات بالحجوزات.",
+      "tools": "Instagram · Facebook · Meta Ads · Canva"
+    },
+    {
+      "name": "Excilify",
+      "sector": "الوكالات",
+      "context": "تسويق رقمي ضمن وكالة ويب وحلول رقمية.",
+      "scope": "تنفيذ SEO والمحتوى والقنوات المدفوعة بالتعاون مع فرق المواقع وأنظمة الحجز.",
+      "tools": "SEO · التحليلات · الإعلانات الاجتماعية · WordPress",
+      "href": "https://excilify.com/"
+    },
+    {
+      "name": "Vestra Marketing",
+      "sector": "الوكالات",
+      "context": "تنفيذ خدمات تسويق عبر وكالة للشركات الصغيرة.",
+      "scope": "محتوى اجتماعي وحملات ونصوص مواقع وفق متطلبات عملاء الوكالة ومعايير العلامة.",
+      "tools": "Facebook · Instagram · إنتاج المحتوى · Canva"
+    },
+    {
+      "name": "GoGetCrypto",
+      "sector": "تعاونات إضافية",
+      "context": "إدارة وسائل التواصل الاجتماعي.",
+      "scope": "تعاون إضافي من قائمة عملائي في العمل المستقل.",
+      "tools": "وسائل التواصل الاجتماعي"
+    }
+  ],
+  "work": {
+    "akam": {
+      "slug": "akam",
+      "name": "AKAM · New York",
+      "title": "مكان يشعر فيه الناس بالانتماء.",
+      "category": "العقارات / التواصل الاجتماعي والإعلانات",
+      "intro": "ربط مجتمع سكني بالأشخاص الذين قد يصبح منزلاً لهم.",
+      "context": "في مشروع Park City 3 & 4 Apartments لدى AKAM، كان المطلوب بناء صوت متسق يبرز المساكن والمرافق والحياة المحيطة بها.",
+      "approach": [
+        "بنيت تقويماً للمحتوى حول مزايا العقارات والحي والمرافق المشتركة.",
+        "أنشأت تصاميم ونصوصاً لـInstagram وFacebook باستخدام Canva مع مراعاة السياق المحلي.",
+        "دعمت المحتوى العضوي بحملات Meta Ads محلية تستهدف جمهور Queens وBrooklyn."
+      ],
+      "delivered": "حضور اجتماعي منسق، ومكتبة تصاميم عقارية، ودليل محتوى تستطيع المجموعة مواصلة استخدامه.",
+      "tools": [
+        "Instagram",
+        "Facebook",
+        "Meta Ads",
+        "Canva",
+        "استراتيجية المحتوى"
+      ],
+      "image": "akam.png",
+      "theme": "blue",
+      "role": "مدير وسائل التواصل الاجتماعي · مستقل",
+      "period": "فبراير 2024 – مارس 2025",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "akam.png",
+        "caption": "نموذج إبداعي مختار من ملف أعمالي.",
+        "href": ""
+      }
+    },
+    "gourmet-gather": {
+      "slug": "gourmet-gather",
+      "name": "Gourmet Gather",
+      "title": "من الإلهام إلى الاكتشاف.",
+      "category": "مشروع عميل / المحتوى والأتمتة",
+      "intro": "منصة وصفات لعميل تربط المحتوى المفيد بالبحث والاكتشاف الاجتماعي وأتمتة البريد.",
+      "context": "في Gourmet Gather، كان التحدي جمع النشر على WordPress والبحث وPinterest والبريد وتحقيق الدخل في عملية واحدة.",
+      "approach": [
+        "طوّرت محتوى وصفات يستند إلى نية البحث والمواسم والاكتشاف على Pinterest.",
+        "أنتجت صوراً وجدول نشر منتظماً، مع حملات مدفوعة محدودة لدعم المحتوى الواعد.",
+        "ربطت توليد العملاء المحتملين بمسارات البريد في GoHighLevel، مع تكاملات للإعلانات المصوّرة والتسويق بالعمولة."
+      ],
+      "delivered": "منصة محتوى وتحقيق دخل تجمع النشر على WordPress والتوزيع على Pinterest وجمع العملاء المحتملين والمتابعة الآلية.",
+      "tools": [
+        "WordPress",
+        "Pinterest",
+        "Rank Math",
+        "GoHighLevel",
+        "Search Console",
+        "الذكاء الاصطناعي التوليدي"
+      ],
+      "image": "gourmet.png",
+      "theme": "green",
+      "role": "المحتوى وSEO وأتمتة التسويق",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "gourmet.png",
+        "caption": "نموذج إبداعي مختار من ملف أعمالي.",
+        "href": ""
+      }
+    },
+    "bunchful": {
+      "slug": "bunchful",
+      "name": "Bunchful Enterprise",
+      "title": "منح الرسالة صوتاً.",
+      "category": "الأثر الاجتماعي / العلامة والمحتوى",
+      "intro": "تحويل رسالة العطاء إلى قصص يتفاعل معها الناس.",
+      "context": "في Bunchful Enterprise، كان المطلوب ترجمة العطاء المجتمعي والعمل الخيري للشركات إلى تواصل رقمي متسق.",
+      "approach": [
+        "طوّرت قصص حملات ومحتوى اجتماعياً حول العطاء واللطف والأثر المجتمعي.",
+        "نسّقت النصوص والتصاميم واتجاه الحملات مع هوية المؤسسة وأهدافها طويلة المدى.",
+        "حسّنت SEO وتجربة المستخدم على WordPress، مع تقارير GA4 وإدارة الأصول الرقمية."
+      ],
+      "delivered": "اتجاه إبداعي وإطار تواصل متسقان للحملات والقنوات الاجتماعية والعمل على الموقع.",
+      "tools": [
+        "WordPress",
+        "GA4",
+        "استراتيجية المحتوى",
+        "أتمتة البريد",
+        "إدارة الأصول الرقمية"
+      ],
+      "image": "bunchful.png",
+      "theme": "pink",
+      "role": "مدير التسويق الرقمي",
+      "period": "مايو 2023 – حتى الآن",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "bunchful.png",
+        "caption": "نموذج إبداعي مختار من ملف أعمالي.",
+        "href": ""
+      }
+    },
+    "content-studio": {
+      "slug": "content-studio",
+      "name": "AI Content Studio",
+      "title": "خطوات أقل. مساحة أكبر للإبداع.",
+      "category": "مشروع تطبيق / النشر بمساعدة الذكاء الاصطناعي",
+      "intro": "تطبيق مكتبي يجمع سير عمل نشر المحتوى في مكان واحد.",
+      "context": "كانت مهام البحث والصور وفحص SEO والتوزيع منفصلة، فبنيت AI Content Studio لربطها في تطبيق مكتبي.",
+      "approach": [
+        "صمّمت مساراً من بحث المواضيع والصياغة بمساعدة الذكاء الاصطناعي إلى الصور وفحص SEO والنشر على WordPress.",
+        "أضفت مخرجات لـPinterest وFacebook وInstagram وملفات CSV للجدولة وتوصيات التسويق بالعمولة والفيديو.",
+        "بنيت التطبيق باستخدام Electron وReact، مع دمج خدمات الذكاء الاصطناعي وتخزين آمن لبيانات الدخول إلى أدوات النشر."
+      ],
+      "delivered": "تطبيق يجمع البحث والتوليد والتحقق والنشر، مع صيغ متعددة للتوزيع.",
+      "tools": [
+        "Electron",
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Replicate API",
+        "WordPress",
+        "التطوير بمساعدة الذكاء الاصطناعي"
+      ],
+      "theme": "orange-panel",
+      "role": "تصميم التطبيق وتطويره",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "skyrocket-your-biz": {
+      "slug": "skyrocket-your-biz",
+      "name": "Skyrocket Your Biz",
+      "title": "من أول نقرة إلى المحادثة التالية.",
+      "category": "توليد العملاء المحتملين / CRM والأتمتة",
+      "intro": "ربط اكتساب العملاء بالمتابعة التي تساعدهم على اتخاذ الخطوة التالية.",
+      "context": "في Skyrocket Your Biz، كان المطلوب ربط زيارات الحملات والتسجيل في الدورة ومتابعة العملاء المحتملين داخل GoHighLevel.",
+      "approach": [
+        "بنيت الموقع وصفحات الهبوط ونماذج التسجيل حول الدورة وحجز المكالمة الاستراتيجية.",
+        "أعددت وسوم جهات الاتصال ومسار CRM وأتمتة البريد والرسائل.",
+        "ربطت عملاء Meta Instant Form بتسلسلات المتابعة وأضفت تتبع التحويلات عبر Meta Pixel وConversions API."
+      ],
+      "delivered": "مسار متكامل يجمع التقاط العملاء المحتملين وتنظيم CRM والمتابعة الآلية وحجز المكالمات.",
+      "tools": [
+        "GoHighLevel",
+        "Meta Ads",
+        "Meta Pixel",
+        "Conversions API",
+        "مسارات CRM"
+      ],
+      "theme": "blue",
+      "role": "توليد العملاء المحتملين وتنفيذ CRM",
+      "period": "",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "strongman": {
+      "slug": "strongman",
+      "name": "Strongman Corporation",
+      "title": "عمل مبني حول المجتمع.",
+      "category": "رياضات القوة / التواصل والفعاليات",
+      "intro": "دعم مجتمع وطني لرياضات القوة بالمحتوى وتسويق الفعاليات.",
+      "context": "في Strongman Corporation، كان المطلوب ربط الرياضيين والجمهور بالمؤسسة ومسابقاتها عبر التواصل الاجتماعي وموقع الفعاليات.",
+      "approach": [
+        "أدرت التقاويم التحريرية ونسّقت المحتوى عبر المنصات الاجتماعية.",
+        "أنتجت محتوى عن الرياضيين وترويجاً للفعاليات وتصاميم وفيديوهات باستخدام Canva وPhotoshop.",
+        "دعمت التسجيلات بالإعلانات المدفوعة وحدّثت معلومات الفعاليات على WordPress."
+      ],
+      "delivered": "عملية منسقة للمحتوى وتسويق الفعاليات، مع أصول إبداعية قابلة لإعادة الاستخدام وتواصل مستمر مع المجتمع.",
+      "tools": [
+        "الاستراتيجية الاجتماعية",
+        "الإعلانات المدفوعة",
+        "WordPress",
+        "Canva",
+        "Photoshop"
+      ],
+      "theme": "dark-panel",
+      "role": "مدير المجتمع",
+      "period": "فبراير 2018 – يناير 2022",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "generation-atomic": {
+      "slug": "generation-atomic",
+      "name": "Generation Atomic",
+      "title": "تبسيط موضوع معقّد.",
+      "category": "الطاقة منخفضة الكربون / التسويق الرقمي",
+      "intro": "محتوى اجتماعي وظهور في البحث وحملات فعاليات لمؤسسة تدعم الطاقة النووية.",
+      "context": "من يناير 2022 إلى مايو 2023، كان المطلوب ربط تواصل Generation Atomic بالبحث والتقارير والمتجر الإلكتروني والترويج للفعاليات.",
+      "approach": [
+        "قدت الاستراتيجية الاجتماعية والتقاويم التحريرية على Facebook وLinkedIn وTwitter وInstagram.",
+        "أجريت بحث الكلمات المفتاحية وتحسين SEO داخل الصفحات، واستخدمت Google Analytics لتقييم الحملات.",
+        "أدرت المتجر الإلكتروني ونسّقت الحملات الرقمية للفعاليات."
+      ],
+      "delivered": "تقاويم تحريرية ومحتوى ملائم للبحث وتقارير أداء وعمليات متجر وترويج منسق للفعاليات.",
+      "tools": [
+        "استراتيجية التواصل الاجتماعي",
+        "SEO",
+        "Google Analytics",
+        "التجارة الإلكترونية",
+        "حملات الفعاليات"
+      ],
+      "theme": "green",
+      "role": "متخصص التسويق الرقمي",
+      "period": "يناير 2022 – مايو 2023",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    },
+    "etsy": {
+      "slug": "etsy",
+      "name": "تجارة إلكترونية بالطباعة عند الطلب",
+      "title": "من البحث إلى المتجر.",
+      "category": "مشروع عميل / Etsy والتجارة الإلكترونية",
+      "intro": "قوائم منتجات مبنية على الكلمات المفتاحية وإنتاج تصاميم وإدارة متجر ملابس بالطباعة عند الطلب.",
+      "context": "ابتداءً من 2024، تطلّب مشروع ExclusiveShirtDesign تنسيق البحث على Etsy وإنتاج التصاميم وتحسين التحويلات وتنفيذ الطلبات.",
+      "approach": [
+        "بحثت الكلمات المفتاحية والوسوم لبناء قوائم منتجات ملائمة ويسهل العثور عليها في Etsy.",
+        "أنتجت تصاميم ونماذج عرض بالذكاء الاصطناعي التوليدي وCanva، مع تحسين التسعير والتحويلات.",
+        "ربطت تنفيذ الطلبات عبر Printful وأدرت خدمة العملاء ومسارات المراجعات."
+      ],
+      "delivered": "متجر ملابس مُدار بقوائم ملائمة للبحث وتصاميم منتجات ومسارات تنفيذ الطلبات ودعم العملاء.",
+      "tools": [
+        "Etsy SEO",
+        "Etsy Ads",
+        "Printful",
+        "Canva",
+        "Pinterest",
+        "الذكاء الاصطناعي التوليدي"
+      ],
+      "theme": "orange-panel",
+      "role": "تطوير المتجر وعمليات التجارة الإلكترونية",
+      "period": "منذ 2024",
+      "metrics": [
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        },
+        {
+          "value": "{{ TODO: metric }}",
+          "label": "{{ TODO: metric label }}",
+          "timeframe": "{{ TODO: timeframe }}"
+        }
+      ],
+      "proof": {
+        "src": "",
+        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "href": ""
+      }
+    }
+  },
+  "testimonials": [
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    },
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    },
+    {
+      "quote": "{{ TODO: approved testimonial }}",
+      "name": "{{ TODO: name }}",
+      "role": "{{ TODO: role }}",
+      "company": "{{ TODO: company }}",
+      "href": ""
+    }
+  ],
+  "logos": [
+    {
+      "name": "AKAM",
+      "src": ""
+    },
+    {
+      "name": "Fresh Body",
+      "src": ""
+    },
+    {
+      "name": "PRIMOVA",
+      "src": ""
+    },
+    {
+      "name": "RetroChic",
+      "src": ""
+    },
+    {
+      "name": "Raffaella",
+      "src": ""
+    },
+    {
+      "name": "Skyrocket Your Biz",
+      "src": ""
+    },
+    {
+      "name": "Gourmet Gather",
+      "src": ""
+    },
+    {
+      "name": "Excilify",
+      "src": ""
+    }
+  ]
+}

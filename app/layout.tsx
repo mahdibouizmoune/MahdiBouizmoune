@@ -1,29 +1,13 @@
-import type { Metadata } from 'next';
-import { indexable, siteUrl } from '../lib/seo';
+/* oxlint-disable next/no-page-custom-font -- Arabic font is intentionally loaded only by Arabic root layouts. */
+import type {Metadata} from 'next';
+import {headers} from 'next/headers';
+import {isLocale,dictionary} from '../lib/i18n';
+import {SITE} from '../lib/site';
+import {ClientControls} from '../components/client-controls';
 import './globals.css';
-
-export const metadata: Metadata = {
-  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
-  title: {
-    default: 'El Mahdi Bouizmoune | Digital Marketing Manager',
-    template: '%s | Mahdi Bouizmoune',
-  },
-  description:
-    'Digital Marketing Manager based in Safi, Morocco. Paid social advertising, SEO, GoHighLevel CRM automation and AI content systems. Experience since 2018.',
-  robots: { index: indexable, follow: indexable },
-  icons: { icon: '/favicon.svg' },
-};
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="en">
-      <body>
-        <a className="skip-link" href="#main">
-          Skip to content
-        </a>
-        {children}
-      </body>
-    </html>
-  );
+import './enhancements.css';
+export const metadata:Metadata={title:SITE.name,icons:{icon:[{url:'/favicon.ico',sizes:'32x32'},{url:'/icon.svg',type:'image/svg+xml'}],apple:'/apple-touch-icon.png'},manifest:'/site.webmanifest'};
+export default async function RootLayout({children,params}:{children:React.ReactNode;params:Promise<{locale?:string}>}){
+ const p=await params,h=await headers(),requested=h.get('x-portfolio-locale')||p.locale||'en',locale=isLocale(requested)?requested:'en',d=dictionary(locale);
+ return <html lang={locale} dir={locale==='ar'?'rtl':'ltr'}><head><meta name="theme-color" content="#202723"/>{locale==='ar'&&<><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap"/></>}</head><body><a className="skip-link" href="#main">{d.a11y.skipToContent}</a>{children}<ClientControls/></body></html>;
 }

@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+
   scroll-padding-top: 24px;
 }
 body {
@@ -347,14 +347,14 @@ h2 {
 .card-index {
   position: absolute;
   top: 17px;
-  left: 20px;
+  inset-inline-start: 20px;
   font-size: 12px;
   letter-spacing: 1px;
 }
 .round-arrow {
   position: absolute;
   bottom: 16px;
-  right: 16px;
+  inset-inline-end: 16px;
   display: grid;
   place-items: center;
   width: 42px;
@@ -558,7 +558,7 @@ h2 {
 .skip-link {
   position: fixed;
   top: -100px;
-  left: 20px;
+  inset-inline-start: 20px;
   z-index: 50;
   background: var(--foreground);
   color: white;
@@ -752,7 +752,7 @@ h2 {
   color: var(--muted);
 }
 .case-story ul {
-  padding-left: 21px;
+  padding-inline-start: 21px;
 }
 .case-story li + li {
   margin-top: 14px;
@@ -831,7 +831,7 @@ h2 {
     font-size: 14px;
   }
   .nav-contact {
-    margin-left: auto;
+    margin-inline-start: auto;
     padding: 9px 14px;
     gap: 13px;
   }
@@ -876,7 +876,7 @@ h2 {
     letter-spacing: -0.6px;
   }
   .career-facts span {
-    text-align: right;
+    text-align: end;
     font-size: 12px;
   }
   .section {
@@ -1095,7 +1095,7 @@ h2 {
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 4px 64px 4px 4px;
+  border-start-start-radius: 4px; border-start-end-radius: 64px; border-end-end-radius: 4px; border-end-start-radius: 4px;
   background: #dddcd6;
 }
 .portrait figcaption {
@@ -1224,7 +1224,7 @@ h2 {
     margin-inline: auto;
   }
   .portrait img {
-    border-top-right-radius: 48px;
+    border-start-end-radius: 48px;
   }
   .about-copy h2 {
     font-size: 40px;
@@ -1253,8 +1253,8 @@ h2 {
 
 /* Refined portfolio presentation and accessible contact palette. */
 .hero-role {
-  border-left: 2px solid var(--orange);
-  padding-left: 20px;
+  border-inline-start: 2px solid var(--orange);
+  padding-inline-start: 20px;
 }
 .hero-meta .eyebrow {
   letter-spacing: 2px;
@@ -1304,12 +1304,12 @@ h2 {
 }
 .experience-row > div:first-child {
   position: relative;
-  padding-left: 19px;
+  padding-inline-start: 19px;
 }
 .experience-row > div:first-child::before {
   content: '';
   position: absolute;
-  left: 0;
+  inset-inline-start: 0;
   top: 11px;
   width: 6px;
   height: 6px;
@@ -1432,7 +1432,7 @@ h2 {
 }
 @media (max-width: 650px) {
   .hero-role {
-    padding-left: 15px;
+    padding-inline-start: 15px;
   }
   .work-image {
     padding: 28px;

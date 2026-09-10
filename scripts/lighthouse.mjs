@@ -1,0 +1,8 @@
+import fs from 'node:fs/promises';
+import lighthouse from 'lighthouse';
+import {launch} from 'chrome-launcher';
+import path from 'node:path';
+const [base='https://mahdi-bouizmoune.vercel.app',stage='before',locale='en',mode='desktop']=process.argv.slice(2);
+const profile=path.resolve('work/lighthouse-profile-'+stage+'-'+locale+'-'+mode);await fs.mkdir(profile,{recursive:true});
+const chrome=await launch({chromePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',userDataDir:profile,chromeFlags:['--headless=new','--no-sandbox','--disable-gpu']});
+try{const result=await lighthouse(base+(locale==='en'?'/':'/'+locale+'/'),{port:chrome.port,output:'json',logLevel:'error',onlyCategories:['performance','accessibility','best-practices','seo'],...(mode==='desktop'?{formFactor:'desktop',screenEmulation:{mobile:false,width:1440,height:900,deviceScaleFactor:1,disabled:false},throttling:{rttMs:40,throughputKbps:10240,cpuSlowdownMultiplier:1,requestLatencyMs:0,downloadThroughputKbps:0,uploadThroughputKbps:0}}:{})});await fs.writeFile('work/lighthouse-'+stage+'-'+locale+'-'+mode+'.json',result.report);console.log(JSON.stringify({stage,locale,mode,url:result.lhr.finalDisplayedUrl,error:result.lhr.runtimeError,scores:Object.fromEntries(Object.entries(result.lhr.categories).map(([k,v])=>[k,Math.round(v.score*100)])),lcp:result.lhr.audits['largest-contentful-paint'].displayValue,cls:result.lhr.audits['cumulative-layout-shift'].displayValue}));}finally{await chrome.kill();}

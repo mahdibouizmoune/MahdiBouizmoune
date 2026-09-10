@@ -1,0 +1,34 @@
+import { Header, Footer, Contact } from './portfolio-shell';
+import { WorkImage } from './work-image';
+import { dictionary, localizePath, Text, type Locale } from '../lib/i18n';
+import { SITE } from '../lib/site';
+import { siteUrl } from '../lib/seo';
+export function Home({locale = 'en'}: {locale?: Locale}) {
+ const d=dictionary(locale), path=(p:string)=>localizePath(p,locale);
+ const featured=['bunchful','skyrocket-your-biz','generation-atomic','strongman','akam','content-studio','gourmet-gather','etsy'] as const;
+ const person={'@context':'https://schema.org','@type':'Person',name:SITE.name,alternateName:['Mahdi Bouizmoune','المهدي بويزمون'],jobTitle:d.hero.eyebrow,description:d.meta.personDescription,url:siteUrl+path('/'),image:siteUrl+'/assets/mahdi-portrait-800.webp',email:'mailto:'+SITE.email,address:{'@type':'PostalAddress',addressLocality:SITE.location.city,addressCountry:SITE.location.country},knowsLanguage:['en','fr','ar'],knowsAbout:['Paid social advertising','Meta Ads','Marketing automation','GoHighLevel','CRM','SEO','GA4','Content strategy'],worksFor:{'@type':'Organization',name:'Bunchful Enterprise'},sameAs:Object.values(SITE.social)};
+ return <><Header locale={locale} currentPath="/"/><main id="main" tabIndex={-1}>
+ <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(person).replace(/</g,'\\u003c')}}/>
+ <section className="hero wrap">
+  <div className="hero-meta"><p className="eyebrow"><bdi>{SITE.name}</bdi></p><span className="availability"><i aria-hidden="true"/>{d.hero.availability}</span></div>
+  <h1>{d.hero.headline}<br/><span className="serif">{d.hero.accent}</span></h1>
+  <div className="hero-bottom"><div className="hero-role"><p className="eyebrow">{d.hero.eyebrow}</p><p>{d.hero.services.map(s=><span className="service-line" key={s}><Text locale={locale}>{s}</Text></span>)}</p></div>
+   <div className="hero-intro"><p><Text locale={locale}>{d.hero.intro}</Text></p><div className="hero-actions"><a className="button dark" href="#experience">{d.hero.explore} <span aria-hidden="true">↓</span></a><a className="text-link" href="#work">{d.hero.selected} <span className="icon-directional" aria-hidden="true">↗</span></a></div></div></div>
+  <div className="career-facts">{d.hero.stats.map(s=><div key={s.label}><strong className={s.value.includes('TODO')?'editorial-value':''}><bdi>{s.value}</bdi></strong><span>{s.label}</span></div>)}</div>
+ </section>
+ <section className="about wrap section" id="about" aria-labelledby="about-heading"><figure className="portrait">
+ {/* oxlint-disable-next-line next/no-img-element -- Precompressed local variants, real dimensions. */}
+ <img src="/assets/mahdi-portrait-800.webp" srcSet="/assets/mahdi-portrait-400.webp 400w, /assets/mahdi-portrait-800.webp 800w, /assets/mahdi-portrait-1200.webp 1200w" sizes="(max-width: 650px) 90vw, (max-width: 1000px) 40vw, 420px" width={800} height={800} alt={SITE.name} fetchPriority="high" decoding="async"/>
+ <figcaption><bdi>{SITE.name}</bdi><span>{d.about.location}</span></figcaption></figure>
+ <div className="about-copy"><p className="eyebrow">{d.about.eyebrow}</p><h2 id="about-heading">{d.about.headline}<br/><span className="serif">{d.about.accent}</span></h2><p className="lead">{d.about.lead}</p><p><Text locale={locale}>{d.about.copy}</Text></p>
+ <div className="languages" aria-label={d.a11y.languages}><span lang="en">English</span><span lang="fr">Français</span><span lang="ar" dir="rtl">العربية</span></div>
+ <details className="credentials"><summary>{d.about.credentials}<span aria-hidden="true"> +</span></summary><p><Text locale={locale}>{d.about.education}</Text></p></details>
+ <div className="about-actions"><a className="text-link" href="#experience">{d.about.experience} ↓</a></div></div></section>
+ <section className="experience-section wrap section" id="experience"><div className="section-top"><div><p className="eyebrow">{d.sections.experience}</p><h2>{d.sections.experienceTitle}<br/><span className="serif">{d.sections.experienceAccent}</span></h2></div><p>{d.sections.experienceIntro}</p></div>
+ <div className="experience-list">{d.experience.map((e,i)=><article className="experience-row" key={e.company}><div><span aria-hidden="true" className="timeline-number">{String(i+1).padStart(2,'0')}</span><p className="date-label"><Text locale={locale}>{e.period}</Text></p><p className="location"><Text locale={locale}>{e.location}</Text></p></div><div><h3><Text locale={locale}>{e.company}</Text></h3><p className="role">{e.role}</p></div><div><p><Text locale={locale}>{e.copy}</Text></p>{e.slug&&<a className="text-link" href={path('/work/'+e.slug)}>{d.sections.exploreWork} <span aria-hidden="true" className="icon-directional">↗</span></a>}</div></article>)}</div></section>
+ <section className="selected-section section" id="work"><div className="wrap"><div className="section-top"><div><p className="eyebrow">{d.sections.work}</p><h2>{d.sections.workTitle}<br/><span className="serif">{d.sections.workAccent}</span></h2></div><p>{d.sections.workIntro}</p></div>
+ <div className="work-grid">{featured.map(slug=>{const p=d.work[slug];return <article className="work-card" key={slug}><a href={path('/work/'+slug)} data-analytics="work_card_click" data-analytics-slug={slug}><div className={'work-image '+p.theme}>{'image' in p&&p.image?<WorkImage name={p.image} alt={d.caseStudy.thumbnail+' · '+p.name}/>:<div className="project-type"><span>{d.caseStudy.proofPending}</span><strong><Text locale={locale}>{p.name}</Text></strong><span><Text locale={locale}>{p.tools.slice(0,3).join(' / ')}</Text></span></div>}<span className="round-arrow icon-directional" aria-hidden="true">↗</span></div><div className="work-caption"><h3><Text locale={locale}>{p.name}</Text></h3><p><Text locale={locale}>{p.delivered}</Text></p></div></a></article>})}</div></div></section>
+ <section className="expertise section" id="expertise"><div className="wrap"><p className="eyebrow">{d.sections.expertise}</p><h2>{d.sections.expertiseTitle}<br/><span className="serif">{d.sections.expertiseAccent}</span></h2><div className="capability-grid">{d.capabilities.map(c=><article key={c.title}><h3>{c.title}</h3><p>{c.copy}</p><p className="tools-line"><Text locale={locale}>{c.tools}</Text></p></article>)}</div></div></section>
+ <section className="wrap section client-preview" id="clients"><p className="eyebrow">{d.sections.clients}</p><h2>{d.sections.clientsTitle}<br/><span className="serif">{d.sections.clientsAccent}</span></h2><p className="section-intro">{d.sections.clientsIntro}</p><div className="client-names">{['AKAM','Fresh Body','Excilify','PRIMOVA','Raffaella','RetroChic'].map(n=><bdi key={n}>{n}</bdi>)}</div><a className="button outline" href={path('/clients')}>{d.sections.directory}<span className="icon-directional" aria-hidden="true"> ↗</span></a></section>
+ <Contact locale={locale}/></main><Footer locale={locale}/></>;
+}

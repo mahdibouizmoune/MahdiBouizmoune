@@ -1,85 +1,13 @@
-import Link from 'next/link';
-export function Header() {
-  return (
-    <header className="header wrap">
-      <Link
-        prefetch={false}
-        className="wordmark"
-        href="/"
-        aria-label="El Mahdi Bouizmoune, home"
-      >
-        mahdi b<span>.</span>
-      </Link>
-      <nav aria-label="Main navigation">
-        <Link prefetch={false} href="/#about">
-          About
-        </Link>
-        <Link prefetch={false} href="/#experience">
-          Experience
-        </Link>
-        <Link prefetch={false} href="/#work">
-          Work
-        </Link>
-        <Link prefetch={false} href="/clients">
-          Clients
-        </Link>
-      </nav>
-      <a className="nav-contact" href="mailto:mahdi.bouizmoune@gmail.com">
-        Let’s talk <span aria-hidden="true">↗</span>
-      </a>
-    </header>
-  );
+import {dictionary,localizePath,type Locale} from '../lib/i18n';
+import {SITE} from '../lib/site';
+import {ContactForm,EmailLink} from './contact-form';
+import cvFiles from '../lib/cv-files.json';
+export function CvLink({locale}:{locale:Locale}){const d=dictionary(locale);return <a className="cv-link" href={cvFiles[locale]} download={'El-Mahdi-Bouizmoune-CV-'+(cvFiles[locale]===SITE.cv.en?'EN':locale.toUpperCase())+'.pdf'} data-analytics="cv_download" data-analytics-locale={locale}>{d.nav.downloadCv}</a>}
+export function Header({locale='en',currentPath='/'}:{locale?:Locale;currentPath?:string}) {
+ const d=dictionary(locale),path=(p:string)=>localizePath(p,locale);
+ return <header className="header wrap" id="top" tabIndex={-1}><a className="wordmark" href={path('/')} aria-label={SITE.name+' · '+d.a11y.home}><bdi>mahdi b<span>.</span></bdi></a>
+ <nav className="main-nav" aria-label={d.a11y.mainNavigation}><a href={path('/#about')}>{d.nav.about}</a><a href={path('/#experience')}>{d.nav.experience}</a><a href={path('/#work')}>{d.nav.work}</a><a href={path('/clients')}>{d.nav.clients}</a></nav>
+ <div className="header-actions"><nav className="language-switcher" aria-label={d.a11y.languageSwitcher}>{(['en','fr','ar'] as const).map(l=><a key={l} href={localizePath(currentPath,l)} lang={l} dir={l==='ar'?'rtl':'ltr'} aria-current={l===locale?'true':undefined} data-locale={l} data-analytics="language_switch" data-analytics-from={locale} data-analytics-to={l}>{l==='ar'?'عربية':l.toUpperCase()}</a>)}</nav><CvLink locale={locale}/><a className="nav-contact" href="#contact">{d.nav.cta}<span className="icon-directional" aria-hidden="true">↗</span></a></div></header>;
 }
-export function Footer() {
-  return (
-    <footer className="footer-shell">
-      <div className="wrap footer">
-        <Link prefetch={false} className="wordmark" href="/">
-          mahdi b<span>.</span>
-        </Link>
-        <span>El Mahdi Bouizmoune · Safi, Morocco</span>
-        <a href="https://www.linkedin.com/in/mahdibouizmoune">LinkedIn ↗</a>
-        <a href="#main">Back to top ↑</a>
-      </div>
-    </footer>
-  );
-}
-export function Contact() {
-  return (
-    <section className="contact" id="contact">
-      <div className="wrap">
-        <div className="contact-heading">
-          <div>
-            <p className="eyebrow">HAVE A ROLE OR A PROJECT IN MIND?</p>
-            <h2>
-              Good work starts
-              <br />
-              <span className="serif">with a conversation.</span>
-            </h2>
-          </div>
-          <div className="contact-action">
-            <p className="contact-description">
-              Open to digital marketing roles and freelance collaborations,
-              remotely and worldwide.
-            </p>
-            <a
-              className="button contact-button"
-              href="mailto:mahdi.bouizmoune@gmail.com"
-            >
-              Email Mahdi <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </div>
-        <div className="contact-bottom">
-          <a href="mailto:mahdi.bouizmoune@gmail.com">
-            mahdi.bouizmoune@gmail.com
-          </a>
-          <div>
-            <a href="https://www.linkedin.com/in/mahdibouizmoune">LinkedIn ↗</a>
-            <a href="https://www.fiverr.com/pro5services">Fiverr ↗</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+export function Footer({locale='en'}:{locale?:Locale}){const d=dictionary(locale);return <footer className="footer-shell"><div className="wrap footer"><a className="wordmark" href={localizePath('/',locale)}><bdi>mahdi b<span>.</span></bdi></a><span>{d.footer.location}</span><a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" data-analytics="outbound_click" data-analytics-destination="linkedin">LinkedIn<span className="sr-only"> ({d.a11y.openInNewTab})</span></a><a href="#top" data-back-top>{d.footer.backToTop} <span aria-hidden="true">↑</span></a></div></footer>}
+export function Contact({locale='en'}:{locale?:Locale}){const d=dictionary(locale);return <section className="contact" id="contact"><div className="wrap"><div className="contact-heading"><div><p className="eyebrow">{d.footer.eyebrow}</p><h2>{d.footer.headline}<br/><span className="serif">{d.footer.accent}</span></h2></div><div className="contact-action"><p className="contact-description">{d.footer.intro}</p><CvLink locale={locale}/>{SITE.booking&&<a className="button contact-button" href={SITE.booking} target="_blank" rel="noopener noreferrer" data-analytics="booking_click">{d.footer.book}<span className="sr-only"> ({d.a11y.openInNewTab})</span></a>}</div></div><ContactForm copy={d.form} locale={locale}/><div className="contact-bottom"><EmailLink parts={SITE.email.split('@')} label={d.footer.email}/><div>{Object.entries(SITE.social).map(([name,href])=><a key={name} href={href} target="_blank" rel="noopener noreferrer" data-analytics="outbound_click" data-analytics-destination={name}>{name==='linkedin'?'LinkedIn':'Fiverr'}<span className="icon-directional" aria-hidden="true"> ↗</span><span className="sr-only"> ({d.a11y.openInNewTab})</span></a>)}</div></div></div></section>}
