@@ -32,13 +32,15 @@ export function Header() {
 }
 export function Footer() {
   return (
-    <footer className="wrap footer">
-      <Link prefetch={false} className="wordmark" href="/">
-        mahdi b<span>.</span>
-      </Link>
-      <span>El Mahdi Bouizmoune · Safi, Morocco</span>
-      <a href="https://www.linkedin.com/in/mahdibouizmoune">LinkedIn ↗</a>
-      <a href="#main">Back to top ↑</a>
+    <footer className="footer-shell">
+      <div className="wrap footer">
+        <Link prefetch={false} className="wordmark" href="/">
+          mahdi b<span>.</span>
+        </Link>
+        <span>El Mahdi Bouizmoune · Safi, Morocco</span>
+        <a href="https://www.linkedin.com/in/mahdibouizmoune">LinkedIn ↗</a>
+        <a href="#main">Back to top ↑</a>
+      </div>
     </footer>
   );
 }
@@ -46,21 +48,28 @@ export function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="wrap">
-        <p className="eyebrow">
-          YOUR NEXT TEAM MEMBER. YOUR NEXT COLLABORATOR.
-        </p>
-        <h2>
-          Let’s make
-          <br />
-          <span className="serif">the next move.</span>
-        </h2>
-        <p className="contact-description">
-          Open to digital marketing roles and freelance collaborations, remotely
-          and worldwide.
-        </p>
-        <a className="button dark" href="mailto:mahdi.bouizmoune@gmail.com">
-          Email Mahdi <span aria-hidden="true">↗</span>
-        </a>
+        <div className="contact-heading">
+          <div>
+            <p className="eyebrow">HAVE A ROLE OR A PROJECT IN MIND?</p>
+            <h2>
+              Good work starts
+              <br />
+              <span className="serif">with a conversation.</span>
+            </h2>
+          </div>
+          <div className="contact-action">
+            <p className="contact-description">
+              Open to digital marketing roles and freelance collaborations,
+              remotely and worldwide.
+            </p>
+            <a
+              className="button contact-button"
+              href="mailto:mahdi.bouizmoune@gmail.com"
+            >
+              Email Mahdi <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
         <div className="contact-bottom">
           <a href="mailto:mahdi.bouizmoune@gmail.com">
             mahdi.bouizmoune@gmail.com
