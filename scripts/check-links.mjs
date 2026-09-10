@@ -13,7 +13,7 @@ for(const route of routes){const file=target(route);assert(file,'Route not prere
 let links=0;const inventory=['# Built control inventory','| Page | Element | Target | Result |','| --- | --- | --- | --- |'];
 for(const[route,all]of documents){
  const html=all.find(n=>n.tagName==='html'),locale=route.startsWith('/ar')?'ar':route.startsWith('/fr')?'fr':'en';
- assert.equal(attr(html,'lang'),locale,route+' lang');assert.equal(attr(html,'dir'),locale==='ar'?'rtl':'ltr',route+' dir');
+ assert.equal(attr(html,'lang'),'en',route+' root lang');if(locale!=='en')assert(all.some(n=>attr(n,'data-locale-root')==='true'&&attr(n,'lang')===locale&&attr(n,'dir')===(locale==='ar'?'rtl':'ltr')),route+' locale root');
  assert.equal(all.filter(n=>n.tagName==='h1').length,1,route+' h1');
  for(const lang of ['en','fr','ar','x-default'])assert(all.some(n=>n.tagName==='link'&&attr(n,'hreflang')===lang),route+' hreflang '+lang);
  for(const a of all.filter(n=>n.tagName==='a')){
