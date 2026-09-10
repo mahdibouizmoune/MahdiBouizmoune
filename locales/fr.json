@@ -39,7 +39,7 @@
         "label": "langues : anglais, français et arabe"
       },
       {
-        "value": "{{ TODO: real metric }}",
+        "value": "90",
         "label": "projets clients livrés"
       }
     ]
