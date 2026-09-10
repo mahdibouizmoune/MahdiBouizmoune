@@ -87,7 +87,7 @@ export default function Home() {
               <p>
                 I connect the campaign, the content and the follow-up. Since
                 2018, I’ve helped international teams bring their marketing
-                together—from the first impression to the next customer.
+                together, from the first impression to the next customer.
               </p>
               <div className="hero-actions">
                 <a className="button dark" href="#experience">
