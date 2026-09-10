@@ -11,6 +11,9 @@ export function Header() {
         mahdi b<span>.</span>
       </Link>
       <nav aria-label="Main navigation">
+        <Link prefetch={false} href="/#about">
+          About
+        </Link>
         <Link prefetch={false} href="/#experience">
           Experience
         </Link>
@@ -19,9 +22,6 @@ export function Header() {
         </Link>
         <Link prefetch={false} href="/clients">
           Clients
-        </Link>
-        <Link prefetch={false} href="/#expertise">
-          Expertise
         </Link>
       </nav>
       <a className="nav-contact" href="mailto:mahdi.bouizmoune@gmail.com">

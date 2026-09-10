@@ -28,7 +28,9 @@ export default function Home() {
     jobTitle: 'Digital Marketing Manager',
     description:
       'Digital marketing professional specializing in paid social advertising, CRM automation, SEO and AI content.',
-    ...(siteUrl ? { url: siteUrl } : {}),
+    ...(siteUrl
+      ? { url: siteUrl, image: siteUrl + '/assets/mahdi-portrait-800.webp' }
+      : {}),
     sameAs: [
       'https://www.linkedin.com/in/mahdibouizmoune',
       'https://www.fiverr.com/pro5services',
@@ -112,10 +114,80 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section
+          className="about wrap section"
+          id="about"
+          aria-labelledby="about-heading"
+        >
+          <figure className="portrait">
+            {/* oxlint-disable-next-line next/no-img-element -- Responsive precompressed portrait, with reserved dimensions. */}
+            <img
+              src="/assets/mahdi-portrait-800.webp"
+              srcSet="/assets/mahdi-portrait-480.webp 480w, /assets/mahdi-portrait-800.webp 800w"
+              sizes="(max-width: 650px) 90vw, (max-width: 1000px) 40vw, 420px"
+              width={800}
+              height={800}
+              alt="El Mahdi Bouizmoune"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>
+              <span>El Mahdi Bouizmoune</span>
+              <span>Safi, Morocco</span>
+            </figcaption>
+          </figure>
+          <div className="about-copy">
+            <p className="eyebrow">01 / A LITTLE ABOUT ME</p>
+            <h2 id="about-heading">
+              Hi, I’m Mahdi.
+              <br />
+              <span className="serif">Strategy meets doing.</span>
+            </h2>
+            <p className="lead">
+              A Digital Marketing Manager connecting creative ideas with the
+              systems that make them work.
+            </p>
+            <p>
+              I work with international teams across paid social, SEO, content
+              and CRM automation. From shaping a campaign to building its
+              follow-up workflow, I enjoy being hands-on with the whole customer
+              journey.
+            </p>
+            <div className="languages" aria-label="Languages">
+              <span>English</span>
+              <span>Français</span>
+              <span lang="ar" dir="rtl">
+                العربية
+              </span>
+            </div>
+            <details className="credentials">
+              <summary>
+                Education & certifications <span aria-hidden="true">+</span>
+              </summary>
+              <p>
+                Mathematics and Computer Science coursework at Université Cadi
+                Ayyad (2015–2018). Social Media Marketing Professional
+                Certification from the Institute of Management, Technology and
+                Finance. Generative AI Certification from LinkedIn.
+              </p>
+            </details>
+            <div className="about-actions">
+              <a className="text-link" href="#experience">
+                My experience ↓
+              </a>
+              <a
+                className="text-link"
+                href="https://www.linkedin.com/in/mahdibouizmoune"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
+        </section>
         <section className="experience-section wrap section" id="experience">
           <div className="section-top">
             <div>
-              <p className="eyebrow">01 / PROFESSIONAL EXPERIENCE</p>
+              <p className="eyebrow">02 / PROFESSIONAL EXPERIENCE</p>
               <h2>
                 A career built
                 <br />
@@ -159,7 +231,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-top">
               <div>
-                <p className="eyebrow">02 / SELECTED WORK</p>
+                <p className="eyebrow">03 / SELECTED WORK</p>
                 <h2>
                   The strategy.
                   <br />
@@ -224,7 +296,7 @@ export default function Home() {
         <section className="wrap section" id="projects">
           <div className="section-top">
             <div>
-              <p className="eyebrow">03 / PROJECTS & SYSTEMS</p>
+              <p className="eyebrow">04 / PROJECTS & SYSTEMS</p>
               <h2>
                 Things I’ve
                 <br />
@@ -255,7 +327,7 @@ export default function Home() {
         </section>
         <section className="expertise section" id="expertise">
           <div className="wrap">
-            <p className="eyebrow">04 / EXPERTISE</p>
+            <p className="eyebrow">05 / EXPERTISE</p>
             <h2>
               One perspective.
               <br />
@@ -274,7 +346,7 @@ export default function Home() {
           </div>
         </section>
         <section className="wrap section client-preview">
-          <p className="eyebrow">05 / CLIENTS & COLLABORATIONS</p>
+          <p className="eyebrow">06 / CLIENTS & COLLABORATIONS</p>
           <h2>
             Different industries.
             <br />
@@ -300,47 +372,6 @@ export default function Home() {
           <Link prefetch={false} className="button outline" href="/clients">
             Explore the client directory ↗
           </Link>
-        </section>
-        <section className="about wrap section" id="about">
-          <div>
-            <p className="eyebrow">06 / A LITTLE ABOUT ME</p>
-            <h2>
-              A strategist’s mind.
-              <br />A builder’s <span className="serif">instinct.</span>
-            </h2>
-          </div>
-          <div className="about-copy">
-            <p className="lead">
-              I’m El Mahdi, a trilingual Digital Marketing Manager based in
-              Safi, Morocco.
-            </p>
-            <p>
-              I work across paid acquisition, lifecycle marketing, SEO and
-              content. I enjoy connecting the creative work with the systems
-              behind it: the story, the campaign, the CRM workflow and the
-              measurement.
-            </p>
-            <p>
-              My background includes Mathematics and Computer Science coursework
-              at Université Cadi Ayyad (2015–2018), a Social Media Marketing
-              Professional Certification from the Institute of Management,
-              Technology and Finance, and a Generative AI Certification from
-              LinkedIn.
-            </p>
-            <div className="languages">
-              <span>English</span>
-              <span>Français</span>
-              <span lang="ar" dir="rtl">
-                العربية
-              </span>
-            </div>
-            <a
-              className="text-link"
-              href="https://www.linkedin.com/in/mahdibouizmoune"
-            >
-              View my professional profile ↗
-            </a>
-          </div>
         </section>
         <Contact />
       </main>
