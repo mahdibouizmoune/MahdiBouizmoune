@@ -17,3 +17,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.brand-track{width:100%}.brand-track>div{flex-wrap:wrap;justify-content:center;padding:0;gap:24px;width:100%}.brand-track>div[aria-hidden]{display:none}.brand-marquee{mask-image:none}.button:hover,.work-card:hover{transform:none}}
 html,body{overflow-x:clip}.section-heading{min-width:0}.section-heading .text-link{max-width:100%;overflow-wrap:anywhere}
 .hero-identity{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px}.hero-identity .rating-badge{min-height:32px;font-size:12px}
+.header{position:relative}.desktop-navigation{display:contents}.desktop-navigation>.main-nav{position:absolute;inset-inline-start:50%;transform:translateX(-50%)}.desktop-navigation>.language-switcher{margin-inline-start:auto}
