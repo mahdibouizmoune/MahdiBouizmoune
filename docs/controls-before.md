@@ -16,7 +16,7 @@ Static source inventory. Dynamic cards expand from project/client data. All eigh
 | a | app/page.tsx:96 | "#work" | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
 | summary | app/page.tsx:164 | Native disclosure / action | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
 | a | app/page.tsx:175 | "#experience" | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
-| a | app/page.tsx:178 | "https://www.linkedin.com/in/mahdibouizmoune" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
+| a | app/page.tsx:178 | "https://www.linkedin.com/in/mahdi-bouizmoune/" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
 | Link | app/page.tsx:217 | {'/work/' + e.slug} | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
 | Link | app/page.tsx:252 | {'/work/' + p.slug} | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
 | Link | app/page.tsx:285 | "/work/akam" | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
@@ -31,9 +31,9 @@ Static source inventory. Dynamic cards expand from project/client data. All eigh
 | Link | components/portfolio-shell.tsx:23 | "/clients" | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
 | a | components/portfolio-shell.tsx:27 | "mailto:mahdi.bouizmoune@gmail.com" | Mail client required | Validate targets, focus, analytics, locale and external semantics |
 | Link | components/portfolio-shell.tsx:37 | "/" | Source target present; build link verification pending | Validate targets, focus, analytics, locale and external semantics |
-| a | components/portfolio-shell.tsx:41 | "https://www.linkedin.com/in/mahdibouizmoune" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
+| a | components/portfolio-shell.tsx:41 | "https://www.linkedin.com/in/mahdi-bouizmoune/" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
 | a | components/portfolio-shell.tsx:42 | "#main" | Scroll only, focus not ensured | Validate targets, focus, analytics, locale and external semantics |
 | a | components/portfolio-shell.tsx:65 | "mailto:mahdi.bouizmoune@gmail.com" | Mail client required | Validate targets, focus, analytics, locale and external semantics |
 | a | components/portfolio-shell.tsx:74 | "mailto:mahdi.bouizmoune@gmail.com" | Mail client required | Validate targets, focus, analytics, locale and external semantics |
-| a | components/portfolio-shell.tsx:78 | "https://www.linkedin.com/in/mahdibouizmoune" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
+| a | components/portfolio-shell.tsx:78 | "https://www.linkedin.com/in/mahdi-bouizmoune/" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |
 | a | components/portfolio-shell.tsx:79 | "https://www.fiverr.com/pro5services" | External destination; new-tab hint missing | Validate targets, focus, analytics, locale and external semantics |

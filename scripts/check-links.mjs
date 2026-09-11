@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {parse} from 'parse5';
 const base='.vercel/output/static';
 const en=JSON.parse(fs.readFileSync('locales/en.json','utf8'));
-const routes=['','/fr','/ar'].flatMap(prefix=>['/','/clients',...Object.keys(en.work).map(s=>'/work/'+s)].map(p=>prefix+p));
+const routes=['','/fr','/ar'].flatMap(prefix=>['/','/work','/clients',...Object.keys(en.work).map(s=>'/work/'+s)].map(p=>prefix+p));
 const nodes=(node)=>[node,...(node.childNodes||[]).flatMap(nodes)];
 const attr=(node,key)=>node.attrs?.find(a=>a.name===key)?.value;
 const target=p=>[path.join(base,p,'index.html'),path.join(base,p+'.html'),path.join(base,p)].find(p=>fs.existsSync(p)&&fs.statSync(p).isFile());
@@ -13,7 +13,7 @@ for(const route of routes){const file=target(route);assert(file,'Route not prere
 let links=0;const inventory=['# Built control inventory','| Page | Element | Target | Result |','| --- | --- | --- | --- |'];
 for(const[route,all]of documents){
  const html=all.find(n=>n.tagName==='html'),locale=route.startsWith('/ar')?'ar':route.startsWith('/fr')?'fr':'en';
- assert.equal(attr(html,'lang'),'en',route+' root lang');if(locale!=='en')assert(all.some(n=>attr(n,'data-locale-root')==='true'&&attr(n,'lang')===locale&&attr(n,'dir')===(locale==='ar'?'rtl':'ltr')),route+' locale root');
+ assert.equal(attr(html,'lang'),locale,route+' root lang');assert.equal(attr(html,'dir'),locale==='ar'?'rtl':'ltr',route+' root direction');
  assert.equal(all.filter(n=>n.tagName==='h1').length,1,route+' h1');
  for(const lang of ['en','fr','ar','x-default'])assert(all.some(n=>n.tagName==='link'&&attr(n,'hreflang')===lang),route+' hreflang '+lang);
  for(const a of all.filter(n=>n.tagName==='a')){

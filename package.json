@@ -9,14 +9,19 @@
     "dev": "vinext dev",
     "build": "node scripts/build.mjs",
     "start": "vinext start --hostname 127.0.0.1 --port 5173",
+    "preview": "node scripts/preview.mjs",
     "lint": "oxlint app lib components/*.tsx vite.config.ts next.config.ts nitro.config.ts",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit --incremental false",
     "build:vercel": "node scripts/build.mjs",
-    "check:locales": "node scripts/check-locales.mjs"
+    "check:locales": "node scripts/check-locales.mjs",
+    "check:content": "node scripts/build.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
+    "@fontsource/geist": "^5.3.0",
+    "@fontsource/geist-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
     "@shadcn/react": "0.3.0",
     "@vercel/analytics": "^2.0.1",
     "class-variance-authority": "0.7.1",

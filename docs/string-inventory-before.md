@@ -246,7 +246,7 @@ Generated before implementation. Includes source literals and JSX text; technica
 | app/page.tsx:28 | Digital Marketing Manager |
 | app/page.tsx:30 | Digital marketing professional specializing in paid social advertising, CRM automation, SEO and AI content. |
 | app/page.tsx:32 | /assets/mahdi-portrait-800.webp |
-| app/page.tsx:35 | https://www.linkedin.com/in/mahdibouizmoune |
+| app/page.tsx:35 | https://www.linkedin.com/in/mahdi-bouizmoune/ |
 | app/page.tsx:36 | https://www.fiverr.com/pro5services |
 | app/page.tsx:38 | English |
 | app/page.tsx:38 | French |
@@ -332,7 +332,7 @@ Generated before implementation. Includes source literals and JSX text; technica
 | app/page.tsx:175 | #experience |
 | app/page.tsx:176 | My experience ↓ |
 | app/page.tsx:179 | text-link |
-| app/page.tsx:180 | https://www.linkedin.com/in/mahdibouizmoune |
+| app/page.tsx:180 | https://www.linkedin.com/in/mahdi-bouizmoune/ |
 | app/page.tsx:182 | LinkedIn ↗ |
 | app/page.tsx:187 | experience-section wrap section |
 | app/page.tsx:187 | experience |
@@ -698,7 +698,7 @@ Generated before implementation. Includes source literals and JSX text; technica
 | components/portfolio-shell.tsx:37 | wordmark |
 | components/portfolio-shell.tsx:38 | mahdi b |
 | components/portfolio-shell.tsx:40 | El Mahdi Bouizmoune · Safi, Morocco |
-| components/portfolio-shell.tsx:41 | https://www.linkedin.com/in/mahdibouizmoune |
+| components/portfolio-shell.tsx:41 | https://www.linkedin.com/in/mahdi-bouizmoune/ |
 | components/portfolio-shell.tsx:41 | LinkedIn ↗ |
 | components/portfolio-shell.tsx:42 | #main |
 | components/portfolio-shell.tsx:42 | Back to top ↑ |
@@ -721,7 +721,7 @@ Generated before implementation. Includes source literals and JSX text; technica
 | components/portfolio-shell.tsx:73 | contact-bottom |
 | components/portfolio-shell.tsx:74 | mailto:mahdi.bouizmoune@gmail.com |
 | components/portfolio-shell.tsx:75 | mahdi.bouizmoune@gmail.com |
-| components/portfolio-shell.tsx:78 | https://www.linkedin.com/in/mahdibouizmoune |
+| components/portfolio-shell.tsx:78 | https://www.linkedin.com/in/mahdi-bouizmoune/ |
 | components/portfolio-shell.tsx:78 | LinkedIn ↗ |
 | components/portfolio-shell.tsx:79 | https://www.fiverr.com/pro5services |
 | components/portfolio-shell.tsx:79 | Fiverr ↗ |

@@ -1,0 +1,31 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import ts from 'typescript';
+import assert from 'node:assert/strict';
+const source=await fs.readFile('app/api/contact/route.ts','utf8');
+const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText.replace('../../../lib/site',pathToFileURL(path.resolve('lib/site.ts')).href);
+const {GET,POST}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+const saved={...process.env},originalFetch=globalThis.fetch,originalNow=Date.now;
+const request=(data,origin='https://mahdi-bouizmoune.vercel.app')=>new Request('https://mahdi-bouizmoune.vercel.app/api/contact',{method:'POST',headers:{'Content-Type':'application/json',Origin:origin},body:JSON.stringify(data)});
+const valid={name:'Local test',email:'test@example.com',company:'Local QA',message:'A simulated enquiry. No message leaves this process.',website:''};
+let sent;
+try{
+ delete process.env.RESEND_API_KEY;delete process.env.CONTACT_FORM_SECRET;
+ assert.equal((await GET()).status,503);
+ assert.equal((await POST(request({}))).status,422);
+ assert.equal((await POST(request(valid,'https://unrelated.example'))).status,403);
+ process.env.RESEND_API_KEY='local-test-only';process.env.CONTACT_FROM_EMAIL='Portfolio <portfolio@example.com>';process.env.CONTACT_TO_EMAIL='recipient@example.com';
+ globalThis.fetch=async(url,options)=>{assert.equal(url,'https://api.resend.com/emails');sent=JSON.parse(options.body);return Response.json({id:'mock-delivery'});};
+ const token=(await (await GET()).json()).token;
+ assert.equal((await POST(request({...valid,token}))).status,429);
+ const now=originalNow();Date.now=()=>now+3000;
+ assert.equal((await POST(request({...valid,token}))).status,200);
+ assert.deepEqual(sent.to,['recipient@example.com']);assert.equal(sent.reply_to,valid.email);assert(sent.text.includes(valid.message));
+ assert.equal((await POST(request({...valid,token:token.split('.').slice(0,2).join('.')+'.'+'é'.repeat(64)}))).status,400);
+ assert.equal((await POST(request({...valid,token,website:'spam'}))).status,400);
+ assert.equal((await POST(request({...valid,token,message:'x'.repeat(17000)}))).status,400);
+ globalThis.fetch=async()=>Response.json({error:'provider failure'},{status:500});assert.equal((await POST(request({...valid,token}))).status,502);
+ Date.now=()=>now+7200001;assert.equal((await POST(request({...valid,token}))).status,400);
+ console.log('Contact handler: 11 checks passed. Provider transport was mocked; no email was sent.');
+}finally{globalThis.fetch=originalFetch;Date.now=originalNow;for(const key of ['RESEND_API_KEY','CONTACT_FORM_SECRET','CONTACT_FROM_EMAIL','CONTACT_TO_EMAIL']){if(saved[key]===undefined)delete process.env[key];else process.env[key]=saved[key];}}
