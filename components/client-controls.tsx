@@ -6,6 +6,7 @@ export function track(event: string, props: Record<string,string|number|boolean>
 export function ClientControls(){
  const [analytics,setAnalytics]=useState(false);
  useEffect(()=>{
+  // oxlint-disable-next-line react/react-compiler -- location.hostname only exists post-mount; deferring to an effect keeps first client render matching the SSR output (no <Analytics/>) and avoids a hydration mismatch.
   setAnalytics(!['localhost','127.0.0.1','::1'].includes(location.hostname));
   const header=document.querySelector('.site-header');
   const scroll=()=>header?.classList.toggle('scrolled',window.scrollY>12);scroll();
