@@ -102,7 +102,7 @@
     "tooShort": "Veuillez écrire au moins 10 caractères.",
     "tooLong": "Veuillez raccourcir ce texte.",
     "slowDown": "Patientez quelques secondes avant de réessayer.",
-    "privacy": "Vos coordonnées servent à répondre à votre demande. Votre message est traité par notre prestataire d’envoi d’e-mails, Resend. Il n’est pas transmis aux outils statistiques.",
+    "privacy": "J’utilise vos coordonnées pour répondre. Resend traite le message pour sa livraison. Votre message n’est pas transmis aux outils d’analyse.",
     "website": "Laissez ce champ vide",
     "noJs": "Activez JavaScript pour utiliser ce formulaire, ou utilisez le lien e-mail ci-dessous."
   },
@@ -119,12 +119,7 @@
     "employmentTitle": "Expérience salariée",
     "employment": "Mes postes chez Bunchful Enterprise, Generation Atomic et Strongman Corporation figurent dans mon expérience professionnelle et mes réalisations.",
     "logoTitle": "Quelques collaborations",
-    "logoPending": "{{ TODO: approved client logo }}",
-    "testimonials": "Retours clients",
-    "testimonialPending": "{{ TODO: approved testimonial }}",
-    "personPending": "{{ TODO: name }}",
-    "rolePending": "{{ TODO: role }}",
-    "companyPending": "{{ TODO: company }}"
+    "testimonials": "Retours clients"
   },
   "caseStudy": {
     "allWork": "Toutes les réalisations",
@@ -134,10 +129,9 @@
     "result": "Résultat",
     "proof": "Éléments de preuve",
     "next": "Projet suivant",
-    "metric": "{{ TODO: metric }}",
-    "metricLabel": "{{ TODO: metric label }}",
-    "timeframe": "{{ TODO: timeframe }}",
-    "proofPending": "{{ TODO: approved screenshot or live proof link }}",
+    "metric": "",
+    "metricLabel": "",
+    "timeframe": "",
     "caption": "Création sélectionnée dans mon portfolio.",
     "read": "Lire l’étude de cas",
     "thumbnail": "Création de campagne",
@@ -288,14 +282,6 @@
       "href": "https://www.annoncesmaroc.ma/"
     },
     {
-      "name": "Impression à la demande sur Etsy",
-      "sector": "E-commerce et commerce",
-      "context": "Développement de boutique, SEO des fiches et production créative.",
-      "scope": "Fiches fondées sur les mots-clés, designs et maquettes produits, tarification, traitement des commandes Printful et assistance client.",
-      "tools": "Etsy SEO · Etsy Ads · Printful · Canva",
-      "caseSlug": "etsy"
-    },
-    {
       "name": "Hoosier Car Store",
       "sector": "E-commerce et commerce",
       "context": "Marketing social centré sur le stock d’un concessionnaire automobile indépendant.",
@@ -316,14 +302,6 @@
       "context": "Réseaux sociaux pour un café à Montego Bay, en Jamaïque.",
       "scope": "Formats récurrents pour les offres du jour et de la semaine, destinés aux habitués et aux visiteurs.",
       "tools": "Instagram · Facebook · Calendriers éditoriaux · Canva"
-    },
-    {
-      "name": "Gourmet Gather",
-      "sector": "Restauration et hôtellerie",
-      "context": "SEO, publication et automatisation pour une plateforme de recettes.",
-      "scope": "Contenu WordPress, diffusion Pinterest, campagnes Meta, newsletters automatisées et intégrations de monétisation.",
-      "tools": "WordPress · Pinterest · GoHighLevel · SEO",
-      "caseSlug": "gourmet-gather"
     },
     {
       "name": "Bel Hernandez Castillo / Latin Heat",
@@ -353,14 +331,6 @@
       "context": "Contenu Facebook pour une entreprise d’animation pour enfants.",
       "scope": "Courte mission en 2018 via Sigma Digital : contenu planifié, engagement et plan d’action de fin de mission.",
       "tools": "Facebook · Planification · Canva"
-    },
-    {
-      "name": "Skyrocket Your Biz",
-      "sector": "Coaching et services professionnels",
-      "context": "Génération de prospects et systèmes de conversion pour une marque de coaching.",
-      "scope": "Pages GoHighLevel, collecte de prospects, pipelines CRM, tags, suivi e-mail et intégration des campagnes Meta.",
-      "tools": "GoHighLevel · Meta Ads · Pixel & CAPI",
-      "caseSlug": "skyrocket-your-biz"
     },
     {
       "name": "Aaron Pang",
@@ -447,23 +417,7 @@
       "theme": "blue",
       "role": "Responsable réseaux sociaux · Freelance",
       "period": "Févr. 2024 – Mars 2025",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "akam.png",
         "caption": "Création sélectionnée dans mon portfolio.",
@@ -474,8 +428,8 @@
       "slug": "gourmet-gather",
       "name": "Gourmet Gather",
       "title": "De l’inspiration à la découverte.",
-      "category": "Projet client / Contenu et automatisation",
-      "intro": "Une plateforme de recettes reliant contenu utile, recherche, découverte sociale et automatisation e-mail.",
+      "category": "Projet personnel / Contenu et automatisation",
+      "intro": "Ma plateforme de recettes relie contenu utile, recherche, découverte sur Pinterest et automatisation email.",
       "context": "Pour Gourmet Gather, le défi était de réunir la publication WordPress, le référencement, Pinterest, les e-mails et la monétisation dans un même processus.",
       "approach": [
         "Développement de recettes autour de l’intention de recherche, de la saisonnalité et de la découverte sur Pinterest.",
@@ -495,23 +449,7 @@
       "theme": "green",
       "role": "Contenu, SEO et automatisation marketing",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "gourmet.png",
         "caption": "Création sélectionnée dans mon portfolio.",
@@ -542,23 +480,7 @@
       "theme": "pink",
       "role": "Responsable marketing digital",
       "period": "Mai 2023 – Aujourd’hui",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "bunchful.png",
         "caption": "Création sélectionnée dans mon portfolio.",
@@ -590,26 +512,10 @@
       "theme": "orange-panel",
       "role": "Conception et développement d’application",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -636,26 +542,10 @@
       "theme": "blue",
       "role": "Génération de prospects et déploiement CRM",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -682,26 +572,10 @@
       "theme": "dark-panel",
       "role": "Responsable de communauté",
       "period": "Févr. 2018 – Janv. 2022",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -728,26 +602,10 @@
       "theme": "green",
       "role": "Spécialiste marketing digital",
       "period": "Janv. 2022 – Mai 2023",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -755,7 +613,7 @@
       "slug": "etsy",
       "name": "E-commerce en impression à la demande",
       "title": "De la recherche à la boutique.",
-      "category": "Projet client / Etsy et e-commerce",
+      "category": "Projet personnel / Etsy et e-commerce",
       "intro": "Fiches produits fondées sur les mots-clés, création et gestion d’une boutique de vêtements en impression à la demande.",
       "context": "À partir de 2024, ExclusiveShirtDesign nécessitait de coordonner la recherche Etsy, la création, l’optimisation des conversions et l’exécution des commandes.",
       "approach": [
@@ -775,53 +633,14 @@
       "theme": "orange-panel",
       "role": "Développement de boutique et opérations e-commerce",
       "period": "Depuis 2024",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     }
   },
-  "testimonials": [
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    },
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    },
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    }
-  ],
   "logos": [
     {
       "name": "AKAM",

@@ -102,7 +102,7 @@
     "tooShort": "يرجى كتابة 10 أحرف على الأقل.",
     "tooLong": "يرجى اختصار النص.",
     "slowDown": "يرجى الانتظار بضع ثوانٍ ثم المحاولة مجدداً.",
-    "privacy": "تُستخدم بياناتكم للرد على استفساركم. تعالج خدمة Resend رسالتكم لإيصال البريد. لا نرسل محتوى الرسالة إلى أدوات التحليلات.",
+    "privacy": "أستخدم بياناتك للرد على استفسارك. تعالج Resend الرسالة لإيصالها. لا يُرسل محتوى رسالتك إلى أدوات التحليلات.",
     "website": "اتركوا هذا الحقل فارغاً",
     "noJs": "فعّلوا JavaScript لاستخدام النموذج، أو استخدموا رابط البريد أدناه."
   },
@@ -119,12 +119,7 @@
     "employmentTitle": "الخبرة الوظيفية",
     "employment": "تجدون أدواري لدى Bunchful Enterprise وGeneration Atomic وStrongman Corporation ضمن الخبرة المهنية والأعمال المختارة.",
     "logoTitle": "تعاونات مختارة",
-    "logoPending": "{{ TODO: approved client logo }}",
-    "testimonials": "آراء العملاء",
-    "testimonialPending": "{{ TODO: approved testimonial }}",
-    "personPending": "{{ TODO: name }}",
-    "rolePending": "{{ TODO: role }}",
-    "companyPending": "{{ TODO: company }}"
+    "testimonials": "آراء العملاء"
   },
   "caseStudy": {
     "allWork": "جميع الأعمال",
@@ -134,10 +129,9 @@
     "result": "النتيجة",
     "proof": "الأدلة",
     "next": "المشروع التالي",
-    "metric": "{{ TODO: metric }}",
-    "metricLabel": "{{ TODO: metric label }}",
-    "timeframe": "{{ TODO: timeframe }}",
-    "proofPending": "{{ TODO: approved screenshot or live proof link }}",
+    "metric": "",
+    "metricLabel": "",
+    "timeframe": "",
     "caption": "نموذج إبداعي مختار من ملف أعمالي.",
     "read": "اقرأ دراسة الحالة",
     "thumbnail": "تصميم للحملة",
@@ -288,14 +282,6 @@
       "href": "https://www.annoncesmaroc.ma/"
     },
     {
-      "name": "الطباعة عند الطلب على Etsy",
-      "sector": "التجارة الإلكترونية والتجزئة",
-      "context": "تطوير متجر وSEO لقوائم المنتجات وإنتاج إبداعي.",
-      "scope": "قوائم مبنية على الكلمات المفتاحية وتصاميم ونماذج عرض وتسعير وتنفيذ الطلبات عبر Printful ودعم العملاء.",
-      "tools": "Etsy SEO · Etsy Ads · Printful · Canva",
-      "caseSlug": "etsy"
-    },
-    {
       "name": "Hoosier Car Store",
       "sector": "التجارة الإلكترونية والتجزئة",
       "context": "تسويق اجتماعي يركز على مخزون معرض سيارات مستقل.",
@@ -316,14 +302,6 @@
       "context": "إدارة التواصل الاجتماعي لمقهى في Montego Bay بجامايكا.",
       "scope": "صيغ متكررة للعروض اليومية والأسبوعية تخدم الزبائن المعتادين والزوار.",
       "tools": "Instagram · Facebook · تقاويم المحتوى · Canva"
-    },
-    {
-      "name": "Gourmet Gather",
-      "sector": "المطاعم والضيافة",
-      "context": "SEO ونشر وأتمتة لمنصة وصفات.",
-      "scope": "محتوى WordPress وتوزيع Pinterest وحملات Meta ومسارات النشرة البريدية وتكاملات تحقيق الدخل.",
-      "tools": "WordPress · Pinterest · GoHighLevel · SEO",
-      "caseSlug": "gourmet-gather"
     },
     {
       "name": "Bel Hernandez Castillo / Latin Heat",
@@ -353,14 +331,6 @@
       "context": "محتوى Facebook لشركة ترفيه للأطفال.",
       "scope": "تعاون قصير في 2018 عبر Sigma Digital: محتوى مجدول وتفاعل مع الجمهور وخطة عمل عند التسليم.",
       "tools": "Facebook · الجدولة · Canva"
-    },
-    {
-      "name": "Skyrocket Your Biz",
-      "sector": "التدريب والخدمات المهنية",
-      "context": "توليد العملاء المحتملين وأنظمة تحويل لعلامة تدريب.",
-      "scope": "صفحات GoHighLevel وجمع العملاء المحتملين ومسارات CRM والوسوم والمتابعة البريدية وربط حملات Meta.",
-      "tools": "GoHighLevel · Meta Ads · Pixel & CAPI",
-      "caseSlug": "skyrocket-your-biz"
     },
     {
       "name": "Aaron Pang",
@@ -447,23 +417,7 @@
       "theme": "blue",
       "role": "مدير وسائل التواصل الاجتماعي · مستقل",
       "period": "فبراير 2024 – مارس 2025",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "akam.png",
         "caption": "نموذج إبداعي مختار من ملف أعمالي.",
@@ -474,8 +428,8 @@
       "slug": "gourmet-gather",
       "name": "Gourmet Gather",
       "title": "من الإلهام إلى الاكتشاف.",
-      "category": "مشروع عميل / المحتوى والأتمتة",
-      "intro": "منصة وصفات لعميل تربط المحتوى المفيد بالبحث والاكتشاف الاجتماعي وأتمتة البريد.",
+      "category": "مشروعي الخاص / المحتوى والأتمتة",
+      "intro": "تربط منصتي للوصفات المحتوى المفيد بالبحث والاكتشاف عبر Pinterest وأتمتة البريد.",
       "context": "في Gourmet Gather، كان التحدي جمع النشر على WordPress والبحث وPinterest والبريد وتحقيق الدخل في عملية واحدة.",
       "approach": [
         "طوّرت محتوى وصفات يستند إلى نية البحث والمواسم والاكتشاف على Pinterest.",
@@ -495,23 +449,7 @@
       "theme": "green",
       "role": "المحتوى وSEO وأتمتة التسويق",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "gourmet.png",
         "caption": "نموذج إبداعي مختار من ملف أعمالي.",
@@ -542,23 +480,7 @@
       "theme": "pink",
       "role": "مدير التسويق الرقمي",
       "period": "مايو 2023 – حتى الآن",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "bunchful.png",
         "caption": "نموذج إبداعي مختار من ملف أعمالي.",
@@ -590,26 +512,10 @@
       "theme": "orange-panel",
       "role": "تصميم التطبيق وتطويره",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -636,26 +542,10 @@
       "theme": "blue",
       "role": "توليد العملاء المحتملين وتنفيذ CRM",
       "period": "",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -682,26 +572,10 @@
       "theme": "dark-panel",
       "role": "مدير المجتمع",
       "period": "فبراير 2018 – يناير 2022",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -728,26 +602,10 @@
       "theme": "green",
       "role": "متخصص التسويق الرقمي",
       "period": "يناير 2022 – مايو 2023",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     },
@@ -755,7 +613,7 @@
       "slug": "etsy",
       "name": "تجارة إلكترونية بالطباعة عند الطلب",
       "title": "من البحث إلى المتجر.",
-      "category": "مشروع عميل / Etsy والتجارة الإلكترونية",
+      "category": "مشروعي الخاص / Etsy والتجارة الإلكترونية",
       "intro": "قوائم منتجات مبنية على الكلمات المفتاحية وإنتاج تصاميم وإدارة متجر ملابس بالطباعة عند الطلب.",
       "context": "ابتداءً من 2024، تطلّب مشروع ExclusiveShirtDesign تنسيق البحث على Etsy وإنتاج التصاميم وتحسين التحويلات وتنفيذ الطلبات.",
       "approach": [
@@ -775,53 +633,14 @@
       "theme": "orange-panel",
       "role": "تطوير المتجر وعمليات التجارة الإلكترونية",
       "period": "منذ 2024",
-      "metrics": [
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        },
-        {
-          "value": "{{ TODO: metric }}",
-          "label": "{{ TODO: metric label }}",
-          "timeframe": "{{ TODO: timeframe }}"
-        }
-      ],
+      "metrics": [],
       "proof": {
         "src": "",
-        "caption": "{{ TODO: approved screenshot or live proof link }}",
+        "caption": "",
         "href": ""
       }
     }
   },
-  "testimonials": [
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    },
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    },
-    {
-      "quote": "{{ TODO: approved testimonial }}",
-      "name": "{{ TODO: name }}",
-      "role": "{{ TODO: role }}",
-      "company": "{{ TODO: company }}",
-      "href": ""
-    }
-  ],
   "logos": [
     {
       "name": "AKAM",
