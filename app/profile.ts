@@ -50,7 +50,7 @@ export const capabilities = [
   {
     title: 'Marketing automation & CRM',
     copy: 'Lead capture, organized pipelines and email/SMS follow-up, from the first enquiry to a booked conversation.',
-    tools: 'GoHighLevel · HubSpot · Klaviyo · Mailchimp',
+    tools: 'GoHighLevel · GA4 · Klaviyo · Mailchimp',
   },
   {
     title: 'SEO, content & analytics',
