@@ -3,8 +3,8 @@
   "short_name": "Mahdi",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5f3ec",
-  "theme_color": "#202723",
+  "background_color": "#EAE2CE",
+  "theme_color": "#101B36",
   "icons": [
     {
       "src": "/icon-192.png",
