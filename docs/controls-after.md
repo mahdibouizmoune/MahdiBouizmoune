@@ -25,6 +25,8 @@
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | / | a | mailto:mahdi.bouizmoune@gmail.com?subject=Project%20or%20role%20inquiry | Target and semantics checked |
 | / | a | #work | Target and semantics checked |
+| / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
+| / | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | / | a | /work | Target and semantics checked |
 | / | a | /work/skyrocket-your-biz | Target and semantics checked |
 | / | a | /work/strongman | Target and semantics checked |
@@ -520,6 +522,8 @@
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr | a | mailto:mahdi.bouizmoune@gmail.com?subject=Project%20or%20role%20inquiry | Target and semantics checked |
 | /fr | a | #work | Target and semantics checked |
+| /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
+| /fr | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | /fr | a | /fr/work | Target and semantics checked |
 | /fr | a | /fr/work/skyrocket-your-biz | Target and semantics checked |
 | /fr | a | /fr/work/strongman | Target and semantics checked |
@@ -1015,6 +1019,8 @@
 | /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar | a | mailto:mahdi.bouizmoune@gmail.com?subject=Project%20or%20role%20inquiry | Target and semantics checked |
 | /ar | a | #work | Target and semantics checked |
+| /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
+| /ar | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | /ar | a | /ar/work | Target and semantics checked |
 | /ar | a | /ar/work/skyrocket-your-biz | Target and semantics checked |
 | /ar | a | /ar/work/strongman | Target and semantics checked |
