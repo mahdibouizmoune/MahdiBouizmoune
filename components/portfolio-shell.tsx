@@ -5,7 +5,7 @@ import {ContactForm} from './contact-form';
 import {MobileMenu} from './growth-controls';
 import cvFiles from '../lib/cv-files.json';
 export function ExternalLink({href,children,locale,className}:{href:string;children:React.ReactNode;locale:Locale;className?:string}){return <a className={className} href={href} target="_blank" rel="noopener noreferrer">{children}<span className="sr-only"> ({dictionary(locale).a11y.openInNewTab})</span></a>;}
-export function CvLink({locale}:{locale:Locale}){const d=dictionary(locale),fallback=locale!=='en'&&cvFiles[locale]===SITE.cv.en;return <a className="button outline cv-link" href={cvFiles[locale]} download="El-Mahdi-Bouizmoune-CV.pdf" data-analytics="cv_download" data-analytics-locale={locale}>{fallback?(locale==='ar'?'السيرة الذاتية (EN)':'CV (EN)'):d.nav.downloadCv}</a>;}
+export function CvLink({locale}:{locale:Locale}){const d=dictionary(locale),fallback=locale!=='en'&&cvFiles[locale]===SITE.cv.en;return <a className="button primary cv-link" href={cvFiles[locale]} download="El-Mahdi-Bouizmoune-CV.pdf" data-analytics="cv_download" data-analytics-locale={locale}>{fallback?(locale==='ar'?'السيرة الذاتية (EN)':'CV (EN)'):d.nav.downloadCv}</a>;}
 export function ContactLink({locale}:{locale:Locale}){return <a className="button primary" href="#contact" data-analytics="contact_click">{growth(locale).book}<span aria-hidden="true">↓</span></a>;}
 export function Header({locale='en',currentPath='/'}:{locale?:Locale;currentPath?:string}){
  const d=dictionary(locale),g=growth(locale),ids=['work','services','process','reviews','about'];
