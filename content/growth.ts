@@ -14,7 +14,6 @@ export function growth(locale:Locale) {
   stamp:t('5.0 Rated','Noté 5.0','تقييم 5.0'),
   yearsLabel:t('Years in digital marketing','Années en marketing digital','سنوات في التسويق الرقمي'),
   engagementsLabel:t('Client engagements, rated 5.0','Missions clients, notées 5.0','مشاريع مع عملاء، بتقييم 5.0'),
-  reachLabel:t('Followers reached across campaigns','Abonnés touchés via les campagnes','متابعون تم الوصول إليهم عبر الحملات'),
   recommendation:t('LinkedIn recommendation','Recommandation LinkedIn','توصية على LinkedIn'),recommended:t('Recommended on LinkedIn','Recommandé sur LinkedIn','موصى بي على LinkedIn'),
   rating:t('5.0 · 76 reviews on Fiverr','5.0 · 76 avis sur Fiverr','5.0 · 76 تقييماً على Fiverr'), brands:t("Brands and teams I've worked with","Marques et équipes avec lesquelles j’ai travaillé",'علامات وفرق عملت معها'),
   work:t('Selected work','Réalisations sélectionnées','أعمال مختارة'),allWork:t('All work','Toutes les réalisations','جميع الأعمال'),readCase:t('Read the case','Lire l’étude de cas','اقرأ دراسة الحالة'),

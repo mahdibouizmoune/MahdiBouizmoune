@@ -13,7 +13,7 @@ const svg=await fs.readFile('public/favicon.svg');
 await fs.writeFile('public/icon.svg',svg);
 for(const[size,name]of [[180,'apple-touch-icon.png'],[192,'icon-192.png'],[512,'icon-512.png']])await sharp(svg).resize(size,size).png().toFile('public/'+name);
 const png=await sharp(svg).resize(32,32).png().toBuffer();const ico=Buffer.alloc(22);ico.writeUInt16LE(1,2);ico.writeUInt16LE(1,4);ico[6]=32;ico[7]=32;ico.writeUInt16LE(1,10);ico.writeUInt16LE(32,12);ico.writeUInt32LE(png.length,14);ico.writeUInt32LE(22,18);await fs.writeFile('public/favicon.ico',Buffer.concat([ico,png]));
-await fs.writeFile('public/site.webmanifest',JSON.stringify({name:SITE.name,short_name:'Mahdi',start_url:'/',display:'standalone',background_color:'#EAE2CE',theme_color:'#101B36',icons:[192,512].map(size=>({src:'/icon-'+size+'.png',sizes:size+'x'+size,type:'image/png'}))},null,2));
+await fs.writeFile('public/site.webmanifest',JSON.stringify({name:SITE.name,short_name:'Mahdi',start_url:'/',display:'standalone',background_color:'#EAE2CE',theme_color:'#242424',icons:[192,512].map(size=>({src:'/icon-'+size+'.png',sizes:size+'x'+size,type:'image/png'}))},null,2));
 await fs.mkdir('public/assets/og',{recursive:true});
 const escape=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const wrap=(text,size=40)=>{const lines=[''];for(const word of text.split(' ')){if((lines.at(-1)+' '+word).trim().length>size)lines.push(word);else lines[lines.length-1]=(lines.at(-1)+' '+word).trim();}return lines;};
