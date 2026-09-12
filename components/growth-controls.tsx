@@ -21,7 +21,7 @@ export function ReviewCarousel({children,previous,next}:{children:ReactNode[];pr
 }
 export function FAQAccordion({items}:{items:{question:string;answer:ReactNode}[]}){
  const [open,setOpen]=useState<number[]|null>(null);
- // oxlint-disable-next-line react/react-compiler -- Progressive enhancement: without JS every answer must render expanded (open===null), so the default state can't already be [] on first paint. This effect collapses them once hydration confirms JS is running.
- useEffect(()=>setOpen([]),[]);
+ // oxlint-disable-next-line react/react-compiler -- Progressive enhancement: without JS every answer must render expanded (open===null), so the default state can't already be [0] on first paint. This effect collapses them to just the first item once hydration confirms JS is running.
+ useEffect(()=>setOpen([0]),[]);
  return <div className="faq-list">{items.map((item,i)=>{const expanded=open===null||open.includes(i);return <div className="faq-item" key={item.question}><h3><button type="button" aria-expanded={expanded} aria-controls={'faq-panel-'+i} id={'faq-button-'+i} onClick={()=>setOpen(expanded?[]:[i])}>{item.question}<span aria-hidden="true" className="faq-chevron">▾</span></button></h3><section id={'faq-panel-'+i} aria-labelledby={'faq-button-'+i} hidden={!expanded}>{item.answer}</section></div>;})}</div>;
 }
