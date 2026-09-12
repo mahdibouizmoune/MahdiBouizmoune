@@ -208,8 +208,6 @@
 | /work/akam | a | /work/gourmet-gather | Target and semantics checked |
 | /work/akam | a | #contact | Target and semantics checked |
 | /work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /work/akam | a | #contact | Target and semantics checked |
-| /work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/akam | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /work/akam | a | /work | Target and semantics checked |
 | /work/akam | a | /clients | Target and semantics checked |
@@ -247,8 +245,6 @@
 | /work/gourmet-gather | a | /work/etsy | Target and semantics checked |
 | /work/gourmet-gather | a | #contact | Target and semantics checked |
 | /work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /work/gourmet-gather | a | #contact | Target and semantics checked |
-| /work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/gourmet-gather | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /work/gourmet-gather | a | /work | Target and semantics checked |
 | /work/gourmet-gather | a | /clients | Target and semantics checked |
@@ -284,8 +280,6 @@
 | /work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/bunchful | a | /work | Target and semantics checked |
 | /work/bunchful | a | /work/akam | Target and semantics checked |
-| /work/bunchful | a | #contact | Target and semantics checked |
-| /work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/bunchful | a | #contact | Target and semantics checked |
 | /work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/bunchful | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -326,8 +320,6 @@
 | /work/content-studio | a | /work/generation-atomic | Target and semantics checked |
 | /work/content-studio | a | #contact | Target and semantics checked |
 | /work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /work/content-studio | a | #contact | Target and semantics checked |
-| /work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/content-studio | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /work/content-studio | a | /work | Target and semantics checked |
 | /work/content-studio | a | /clients | Target and semantics checked |
@@ -363,8 +355,6 @@
 | /work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/skyrocket-your-biz | a | /work | Target and semantics checked |
 | /work/skyrocket-your-biz | a | /work/strongman | Target and semantics checked |
-| /work/skyrocket-your-biz | a | #contact | Target and semantics checked |
-| /work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/skyrocket-your-biz | a | #contact | Target and semantics checked |
 | /work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/skyrocket-your-biz | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -405,8 +395,6 @@
 | /work/strongman | a | /work/bunchful | Target and semantics checked |
 | /work/strongman | a | #contact | Target and semantics checked |
 | /work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /work/strongman | a | #contact | Target and semantics checked |
-| /work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/strongman | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /work/strongman | a | /work | Target and semantics checked |
 | /work/strongman | a | /clients | Target and semantics checked |
@@ -442,8 +430,6 @@
 | /work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/generation-atomic | a | /work | Target and semantics checked |
 | /work/generation-atomic | a | /work/skyrocket-your-biz | Target and semantics checked |
-| /work/generation-atomic | a | #contact | Target and semantics checked |
-| /work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/generation-atomic | a | #contact | Target and semantics checked |
 | /work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/generation-atomic | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -482,8 +468,6 @@
 | /work/etsy | a | /work | Target and semantics checked |
 | /work/etsy | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | /work/etsy | a | /work/content-studio | Target and semantics checked |
-| /work/etsy | a | #contact | Target and semantics checked |
-| /work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/etsy | a | #contact | Target and semantics checked |
 | /work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /work/etsy | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -705,8 +689,6 @@
 | /fr/work/akam | a | /fr/work/gourmet-gather | Target and semantics checked |
 | /fr/work/akam | a | #contact | Target and semantics checked |
 | /fr/work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /fr/work/akam | a | #contact | Target and semantics checked |
-| /fr/work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/akam | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /fr/work/akam | a | /fr/work | Target and semantics checked |
 | /fr/work/akam | a | /fr/clients | Target and semantics checked |
@@ -744,8 +726,6 @@
 | /fr/work/gourmet-gather | a | /fr/work/etsy | Target and semantics checked |
 | /fr/work/gourmet-gather | a | #contact | Target and semantics checked |
 | /fr/work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /fr/work/gourmet-gather | a | #contact | Target and semantics checked |
-| /fr/work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/gourmet-gather | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /fr/work/gourmet-gather | a | /fr/work | Target and semantics checked |
 | /fr/work/gourmet-gather | a | /fr/clients | Target and semantics checked |
@@ -781,8 +761,6 @@
 | /fr/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/bunchful | a | /fr/work | Target and semantics checked |
 | /fr/work/bunchful | a | /fr/work/akam | Target and semantics checked |
-| /fr/work/bunchful | a | #contact | Target and semantics checked |
-| /fr/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/bunchful | a | #contact | Target and semantics checked |
 | /fr/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/bunchful | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -823,8 +801,6 @@
 | /fr/work/content-studio | a | /fr/work/generation-atomic | Target and semantics checked |
 | /fr/work/content-studio | a | #contact | Target and semantics checked |
 | /fr/work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /fr/work/content-studio | a | #contact | Target and semantics checked |
-| /fr/work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/content-studio | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /fr/work/content-studio | a | /fr/work | Target and semantics checked |
 | /fr/work/content-studio | a | /fr/clients | Target and semantics checked |
@@ -860,8 +836,6 @@
 | /fr/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/skyrocket-your-biz | a | /fr/work | Target and semantics checked |
 | /fr/work/skyrocket-your-biz | a | /fr/work/strongman | Target and semantics checked |
-| /fr/work/skyrocket-your-biz | a | #contact | Target and semantics checked |
-| /fr/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/skyrocket-your-biz | a | #contact | Target and semantics checked |
 | /fr/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/skyrocket-your-biz | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -902,8 +876,6 @@
 | /fr/work/strongman | a | /fr/work/bunchful | Target and semantics checked |
 | /fr/work/strongman | a | #contact | Target and semantics checked |
 | /fr/work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /fr/work/strongman | a | #contact | Target and semantics checked |
-| /fr/work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/strongman | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /fr/work/strongman | a | /fr/work | Target and semantics checked |
 | /fr/work/strongman | a | /fr/clients | Target and semantics checked |
@@ -939,8 +911,6 @@
 | /fr/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/generation-atomic | a | /fr/work | Target and semantics checked |
 | /fr/work/generation-atomic | a | /fr/work/skyrocket-your-biz | Target and semantics checked |
-| /fr/work/generation-atomic | a | #contact | Target and semantics checked |
-| /fr/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/generation-atomic | a | #contact | Target and semantics checked |
 | /fr/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/generation-atomic | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -979,8 +949,6 @@
 | /fr/work/etsy | a | /fr/work | Target and semantics checked |
 | /fr/work/etsy | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | /fr/work/etsy | a | /fr/work/content-studio | Target and semantics checked |
-| /fr/work/etsy | a | #contact | Target and semantics checked |
-| /fr/work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/etsy | a | #contact | Target and semantics checked |
 | /fr/work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr/work/etsy | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -1202,8 +1170,6 @@
 | /ar/work/akam | a | /ar/work/gourmet-gather | Target and semantics checked |
 | /ar/work/akam | a | #contact | Target and semantics checked |
 | /ar/work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /ar/work/akam | a | #contact | Target and semantics checked |
-| /ar/work/akam | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/akam | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /ar/work/akam | a | /ar/work | Target and semantics checked |
 | /ar/work/akam | a | /ar/clients | Target and semantics checked |
@@ -1241,8 +1207,6 @@
 | /ar/work/gourmet-gather | a | /ar/work/etsy | Target and semantics checked |
 | /ar/work/gourmet-gather | a | #contact | Target and semantics checked |
 | /ar/work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /ar/work/gourmet-gather | a | #contact | Target and semantics checked |
-| /ar/work/gourmet-gather | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/gourmet-gather | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /ar/work/gourmet-gather | a | /ar/work | Target and semantics checked |
 | /ar/work/gourmet-gather | a | /ar/clients | Target and semantics checked |
@@ -1278,8 +1242,6 @@
 | /ar/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/bunchful | a | /ar/work | Target and semantics checked |
 | /ar/work/bunchful | a | /ar/work/akam | Target and semantics checked |
-| /ar/work/bunchful | a | #contact | Target and semantics checked |
-| /ar/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/bunchful | a | #contact | Target and semantics checked |
 | /ar/work/bunchful | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/bunchful | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -1320,8 +1282,6 @@
 | /ar/work/content-studio | a | /ar/work/generation-atomic | Target and semantics checked |
 | /ar/work/content-studio | a | #contact | Target and semantics checked |
 | /ar/work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /ar/work/content-studio | a | #contact | Target and semantics checked |
-| /ar/work/content-studio | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/content-studio | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /ar/work/content-studio | a | /ar/work | Target and semantics checked |
 | /ar/work/content-studio | a | /ar/clients | Target and semantics checked |
@@ -1357,8 +1317,6 @@
 | /ar/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/skyrocket-your-biz | a | /ar/work | Target and semantics checked |
 | /ar/work/skyrocket-your-biz | a | /ar/work/strongman | Target and semantics checked |
-| /ar/work/skyrocket-your-biz | a | #contact | Target and semantics checked |
-| /ar/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/skyrocket-your-biz | a | #contact | Target and semantics checked |
 | /ar/work/skyrocket-your-biz | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/skyrocket-your-biz | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -1399,8 +1357,6 @@
 | /ar/work/strongman | a | /ar/work/bunchful | Target and semantics checked |
 | /ar/work/strongman | a | #contact | Target and semantics checked |
 | /ar/work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
-| /ar/work/strongman | a | #contact | Target and semantics checked |
-| /ar/work/strongman | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/strongman | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
 | /ar/work/strongman | a | /ar/work | Target and semantics checked |
 | /ar/work/strongman | a | /ar/clients | Target and semantics checked |
@@ -1436,8 +1392,6 @@
 | /ar/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/generation-atomic | a | /ar/work | Target and semantics checked |
 | /ar/work/generation-atomic | a | /ar/work/skyrocket-your-biz | Target and semantics checked |
-| /ar/work/generation-atomic | a | #contact | Target and semantics checked |
-| /ar/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/generation-atomic | a | #contact | Target and semantics checked |
 | /ar/work/generation-atomic | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/generation-atomic | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
@@ -1476,8 +1430,6 @@
 | /ar/work/etsy | a | /ar/work | Target and semantics checked |
 | /ar/work/etsy | a | https://www.etsy.com/shop/ExclusiveShirtDesign | Target and semantics checked |
 | /ar/work/etsy | a | /ar/work/content-studio | Target and semantics checked |
-| /ar/work/etsy | a | #contact | Target and semantics checked |
-| /ar/work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/etsy | a | #contact | Target and semantics checked |
 | /ar/work/etsy | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar/work/etsy | a | mailto:mahdi.bouizmoune@gmail.com | Target and semantics checked |
