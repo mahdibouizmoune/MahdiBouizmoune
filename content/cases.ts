@@ -2,7 +2,7 @@ import {dictionary,type Locale} from '../lib/i18n';
 import {growth,words} from './growth';
 import {proof} from './proof';
 import {testimonials,type Testimonial} from './testimonials';
-export const caseOrder=['skyrocket-your-biz','strongman','bunchful','akam','gourmet-gather','etsy','content-studio','generation-atomic'] as const;
+export const caseOrder=['strongman','skyrocket-your-biz','akam','generation-atomic','bunchful','gourmet-gather','etsy','content-studio'] as const;
 export type CaseSlug=typeof caseOrder[number];
 export type Filter='all'|'paid-social'|'crm'|'seo-content'|'ecommerce';
 export const filterIds:Filter[]=['all','paid-social','crm','seo-content','ecommerce'];
