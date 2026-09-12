@@ -39,7 +39,7 @@
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
-| / | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
+| / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | / | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | / | a | #contact | Target and semantics checked |
 | / | a | #contact | Target and semantics checked |
@@ -163,6 +163,7 @@
 | /clients | a | https://excilify.com/ | Target and semantics checked |
 | /clients | a | /#experience | Target and semantics checked |
 | /clients | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
+| /clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
@@ -520,7 +521,7 @@
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
-| /fr | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
+| /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /fr | a | #contact | Target and semantics checked |
 | /fr | a | #contact | Target and semantics checked |
@@ -644,6 +645,7 @@
 | /fr/clients | a | https://excilify.com/ | Target and semantics checked |
 | /fr/clients | a | /fr/#experience | Target and semantics checked |
 | /fr/clients | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
+| /fr/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
@@ -1001,7 +1003,7 @@
 | /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
-| /ar | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
+| /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar | a | /assets/cv/el-mahdi-bouizmoune-cv-en.pdf | Target and semantics checked |
 | /ar | a | #contact | Target and semantics checked |
 | /ar | a | #contact | Target and semantics checked |
@@ -1125,6 +1127,7 @@
 | /ar/clients | a | https://excilify.com/ | Target and semantics checked |
 | /ar/clients | a | /ar/#experience | Target and semantics checked |
 | /ar/clients | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
+| /ar/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /ar/clients | a | https://www.fiverr.com/pro5services | Target and semantics checked |
