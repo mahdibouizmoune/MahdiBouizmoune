@@ -6,7 +6,7 @@ export function growth(locale:Locale) {
   nav:[t('Work','Réalisations','أعمالي'),t('Services','Services','خدماتي'),t('Process','Méthode','طريقة عملي'),t('Reviews','Avis','التوصيات'),t('About','À propos','نبذة عني')],
   book:t('Contact me','Me contacter','تواصل معي'), menu:t('Open menu','Ouvrir le menu','افتح القائمة'), close:t('Close menu','Fermer le menu','أغلق القائمة'),
   hero:t('I run paid social and CRM systems that turn ad spend into booked calls and sales.','Je gère les campagnes publicitaires et les systèmes CRM qui transforment le budget média en rendez-vous et en ventes.','أدير الحملات الإعلانية وأنظمة إدارة علاقات العملاء لتحويل الإنفاق الإعلاني إلى مكالمات محجوزة ومبيعات.'),
-  subline:t('Digital Marketing Manager. 8+ years across Meta, TikTok, Pinterest, GoHighLevel and GA4. English, French, Arabic.','Digital Marketing Manager. Plus de 8 ans sur Meta, TikTok, Pinterest, GoHighLevel et GA4. Anglais, français, arabe.','مدير تسويق رقمي. أكثر من 8 سنوات من الخبرة في Meta وTikTok وPinterest وGoHighLevel وGA4. أعمل بالعربية والفرنسية والإنجليزية.'),
+  subline:t('Digital Marketing Manager. 8+ years across Meta, TikTok, Pinterest and GoHighLevel. English, French, Arabic.','Digital Marketing Manager. Plus de 8 ans sur Meta, TikTok, Pinterest et GoHighLevel. Anglais, français, arabe.','مدير تسويق رقمي. أكثر من 8 سنوات من الخبرة في Meta وTikTok وPinterest وGoHighLevel. أعمل بالعربية والفرنسية والإنجليزية.'),
   seeWork:t('See the work','Voir les réalisations','شاهد أعمالي'),
   roleLabel:t('Role','Rôle','الدور'), basedLabel:t('Based','Basé','المقر'), statusLabel:t('Status','Statut','الحالة'),
   basedShort:t('Safi, Morocco','Safi, Maroc','آسفي، المغرب'), statusOpen:t('Open to work','Disponible','متاح للعمل'),
