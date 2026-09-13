@@ -35,6 +35,7 @@
 | / | a | /work/etsy | Target and semantics checked |
 | / | a | /work/content-studio | Target and semantics checked |
 | / | a | /clients | Target and semantics checked |
+| / | a | /clients | Target and semantics checked |
 | / | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | / | a | https://www.fiverr.com/pro5services | Target and semantics checked |
@@ -518,6 +519,7 @@
 | /fr | a | /fr/work/etsy | Target and semantics checked |
 | /fr | a | /fr/work/content-studio | Target and semantics checked |
 | /fr | a | /fr/clients | Target and semantics checked |
+| /fr | a | /fr/clients | Target and semantics checked |
 | /fr | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
 | /fr | a | https://www.fiverr.com/pro5services | Target and semantics checked |
@@ -1000,6 +1002,7 @@
 | /ar | a | /ar/work/gourmet-gather | Target and semantics checked |
 | /ar | a | /ar/work/etsy | Target and semantics checked |
 | /ar | a | /ar/work/content-studio | Target and semantics checked |
+| /ar | a | /ar/clients | Target and semantics checked |
 | /ar | a | /ar/clients | Target and semantics checked |
 | /ar | a | https://www.linkedin.com/in/mahdi-bouizmoune/ | Target and semantics checked |
 | /ar | a | https://www.fiverr.com/pro5services | Target and semantics checked |
