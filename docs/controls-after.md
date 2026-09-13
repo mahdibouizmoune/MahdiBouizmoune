@@ -32,7 +32,7 @@
 | / | a | /work/generation-atomic | Target and semantics checked |
 | / | a | /work/bunchful | Target and semantics checked |
 | / | a | /work/gourmet-gather | Target and semantics checked |
-| / | a | /work/etsy | Target and semantics checked |
+| / | a | https://retrochic.ma/ | Target and semantics checked |
 | / | a | /work/content-studio | Target and semantics checked |
 | / | a | /clients | Target and semantics checked |
 | / | a | /clients | Target and semantics checked |
@@ -516,7 +516,7 @@
 | /fr | a | /fr/work/generation-atomic | Target and semantics checked |
 | /fr | a | /fr/work/bunchful | Target and semantics checked |
 | /fr | a | /fr/work/gourmet-gather | Target and semantics checked |
-| /fr | a | /fr/work/etsy | Target and semantics checked |
+| /fr | a | https://retrochic.ma/ | Target and semantics checked |
 | /fr | a | /fr/work/content-studio | Target and semantics checked |
 | /fr | a | /fr/clients | Target and semantics checked |
 | /fr | a | /fr/clients | Target and semantics checked |
@@ -1000,7 +1000,7 @@
 | /ar | a | /ar/work/generation-atomic | Target and semantics checked |
 | /ar | a | /ar/work/bunchful | Target and semantics checked |
 | /ar | a | /ar/work/gourmet-gather | Target and semantics checked |
-| /ar | a | /ar/work/etsy | Target and semantics checked |
+| /ar | a | https://retrochic.ma/ | Target and semantics checked |
 | /ar | a | /ar/work/content-studio | Target and semantics checked |
 | /ar | a | /ar/clients | Target and semantics checked |
 | /ar | a | /ar/clients | Target and semantics checked |
